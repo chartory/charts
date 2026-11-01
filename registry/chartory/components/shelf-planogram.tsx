@@ -1,0 +1,21 @@
+// Shelf planogram (Chartory chart 059): sizes xs | s | m | l, laid out again from the data at each
+// size; collection "hearth" (default) or "signal" (with @chartory/signal, Code and Complete). Data in the type's shape (default: the sample). Docs:
+// https://usechartory.com/docs/charts/shelf-planogram
+import { ChartView, type ChartViewProps } from "@/lib/chartory/charts/chart-view"
+import { registerChart } from "@/lib/chartory/charts/defs"
+import { data as sample } from "@/lib/chartory/charts/types/059-shelf-planogram/data"
+import { def } from "@/lib/chartory/charts/types/059-shelf-planogram/layout"
+
+registerChart(def, sample)
+
+export type ShelfPlanogramData = typeof sample
+export type ShelfPlanogramProps = Omit<ChartViewProps, "def" | "data" | "states"> & {
+  /** the data to draw (default: the sample) */
+  data?: ShelfPlanogramData
+  /** further data states: the chart morphs to them (update) or ticks through them (live, with interval) */
+  states?: ShelfPlanogramData[]
+}
+
+export function ShelfPlanogram(props: ShelfPlanogramProps) {
+  return <ChartView def={def} {...props} />
+}

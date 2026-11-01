@@ -1,0 +1,1435 @@
+/* Chartory · chartory.css — generated from the Chartory sources; edit those, not this file.
+   Tokens for the Hearth collection in four modes (light on :root, dark on .dark, or data-theme on any element), the
+   chart colours (data-chart-color), and chart motion. The Signal collection's tokens: chartory-signal.css. */
+
+/* Palette (181) */
+:root {
+  --chartory-neutral-50: #fafafb;
+  --chartory-neutral-100: #f3f4f5;
+  --chartory-neutral-200: #e3e5e8;
+  --chartory-neutral-300: #d2d4d9;
+  --chartory-neutral-400: #9da1a9;
+  --chartory-neutral-500: #6f737c;
+  --chartory-neutral-600: #50545d;
+  --chartory-neutral-700: #3c4048;
+  --chartory-neutral-800: #25282d;
+  --chartory-neutral-900: #16191d;
+  --chartory-neutral-950: #090a0e;
+  --chartory-red-50: #fff4f2;
+  --chartory-red-100: #ffe5e1;
+  --chartory-red-200: #fec9c3;
+  --chartory-red-300: #fea298;
+  --chartory-red-400: #fe6b64;
+  --chartory-red-500: #fe2736;
+  --chartory-red-600: #df0a2a;
+  --chartory-red-700: #b70722;
+  --chartory-red-800: #95041c;
+  --chartory-red-900: #7b0317;
+  --chartory-red-950: #460e11;
+  --chartory-orange-50: #fff6f0;
+  --chartory-orange-100: #ffeadf;
+  --chartory-orange-200: #ffd6c0;
+  --chartory-orange-300: #feba98;
+  --chartory-orange-400: #fe9363;
+  --chartory-orange-500: #fe6d2b;
+  --chartory-orange-600: #e55008;
+  --chartory-orange-700: #bf3a05;
+  --chartory-orange-800: #9c2603;
+  --chartory-orange-900: #811602;
+  --chartory-orange-950: #47120c;
+  --chartory-amber-50: #fff8ee;
+  --chartory-amber-100: #fff0dd;
+  --chartory-amber-200: #ffe2c1;
+  --chartory-amber-300: #fed19f;
+  --chartory-amber-400: #feb768;
+  --chartory-amber-500: #fe9b16;
+  --chartory-amber-600: #de830b;
+  --chartory-amber-700: #b56607;
+  --chartory-amber-800: #904d04;
+  --chartory-amber-900: #723a02;
+  --chartory-amber-950: #401e04;
+  --chartory-yellow-50: #fcfaef;
+  --chartory-yellow-100: #fbf5dc;
+  --chartory-yellow-200: #fcecba;
+  --chartory-yellow-300: #fee090;
+  --chartory-yellow-400: #fecc4b;
+  --chartory-yellow-500: #f4b811;
+  --chartory-yellow-600: #d69c0d;
+  --chartory-yellow-700: #ae7a08;
+  --chartory-yellow-800: #895c04;
+  --chartory-yellow-900: #6b4502;
+  --chartory-yellow-950: #3c2300;
+  --chartory-green-50: #f0fbf2;
+  --chartory-green-100: #ddf7e2;
+  --chartory-green-200: #baefc5;
+  --chartory-green-300: #8be3a2;
+  --chartory-green-400: #3ed376;
+  --chartory-green-500: #0fbf63;
+  --chartory-green-600: #0ba456;
+  --chartory-green-700: #078445;
+  --chartory-green-800: #046936;
+  --chartory-green-900: #02532b;
+  --chartory-green-950: #013017;
+  --chartory-teal-50: #f0faf7;
+  --chartory-teal-100: #dcf5ef;
+  --chartory-teal-200: #b8ece0;
+  --chartory-teal-300: #88decd;
+  --chartory-teal-400: #34ccb7;
+  --chartory-teal-500: #0fb7a4;
+  --chartory-teal-600: #0b9d8e;
+  --chartory-teal-700: #077f73;
+  --chartory-teal-800: #04645c;
+  --chartory-teal-900: #025049;
+  --chartory-teal-950: #012e2a;
+  --chartory-cyan-50: #effafc;
+  --chartory-cyan-100: #dcf5f9;
+  --chartory-cyan-200: #b7ecf6;
+  --chartory-cyan-300: #88def0;
+  --chartory-cyan-400: #34cce7;
+  --chartory-cyan-500: #10b8d4;
+  --chartory-cyan-600: #0c9eb8;
+  --chartory-cyan-700: #077f96;
+  --chartory-cyan-800: #046477;
+  --chartory-cyan-900: #024f60;
+  --chartory-cyan-950: #012c38;
+  --chartory-sky-50: #eff9ff;
+  --chartory-sky-100: #dbf2ff;
+  --chartory-sky-200: #b7e4ff;
+  --chartory-sky-300: #85d1fe;
+  --chartory-sky-400: #3bb9fb;
+  --chartory-sky-500: #0da3e8;
+  --chartory-sky-600: #098bca;
+  --chartory-sky-700: #0670a6;
+  --chartory-sky-800: #035987;
+  --chartory-sky-900: #02476f;
+  --chartory-sky-950: #072940;
+  --chartory-blue-50: #f0f7ff;
+  --chartory-blue-100: #dcecff;
+  --chartory-blue-200: #b9d7fe;
+  --chartory-blue-300: #89bbfe;
+  --chartory-blue-400: #5198fe;
+  --chartory-blue-500: #247cfd;
+  --chartory-blue-600: #0463ef;
+  --chartory-blue-700: #0f4fc8;
+  --chartory-blue-800: #1540a2;
+  --chartory-blue-900: #183683;
+  --chartory-blue-950: #132149;
+  --chartory-indigo-50: #f2f5ff;
+  --chartory-indigo-100: #e1e8ff;
+  --chartory-indigo-200: #c2cefe;
+  --chartory-indigo-300: #99aafe;
+  --chartory-indigo-400: #7280fd;
+  --chartory-indigo-500: #5c5dfd;
+  --chartory-indigo-600: #4f43eb;
+  --chartory-indigo-700: #4236c5;
+  --chartory-indigo-800: #372da1;
+  --chartory-indigo-900: #302983;
+  --chartory-indigo-950: #1d1c49;
+  --chartory-violet-50: #f6f4ff;
+  --chartory-violet-100: #ebe5ff;
+  --chartory-violet-200: #d7cafe;
+  --chartory-violet-300: #bea2fe;
+  --chartory-violet-400: #a572fd;
+  --chartory-violet-500: #9647fd;
+  --chartory-violet-600: #8526e9;
+  --chartory-violet-700: #6f1bc3;
+  --chartory-violet-800: #5a199e;
+  --chartory-violet-900: #4b1c80;
+  --chartory-violet-950: #2b1648;
+  --chartory-fuchsia-50: #fef3ff;
+  --chartory-fuchsia-100: #fde2ff;
+  --chartory-fuchsia-200: #fbc5fe;
+  --chartory-fuchsia-300: #f79afe;
+  --chartory-fuchsia-400: #ef60fa;
+  --chartory-fuchsia-500: #e22bef;
+  --chartory-fuchsia-600: #c60bd2;
+  --chartory-fuchsia-700: #a207ab;
+  --chartory-fuchsia-800: #83048a;
+  --chartory-fuchsia-900: #6b0371;
+  --chartory-fuchsia-950: #3d0d3f;
+  --chartory-pink-50: #fff4f6;
+  --chartory-pink-100: #ffe5eb;
+  --chartory-pink-200: #fecad8;
+  --chartory-pink-300: #fea3be;
+  --chartory-pink-400: #fe6ea1;
+  --chartory-pink-500: #fc308c;
+  --chartory-pink-600: #e00b78;
+  --chartory-pink-700: #b70762;
+  --chartory-pink-800: #94044f;
+  --chartory-pink-900: #790440;
+  --chartory-pink-950: #440e25;
+  --chartory-base-white: #ffffff;
+  --chartory-base-black: #000000;
+  --chartory-base-black-a0: #00000000;
+  --chartory-base-black-a10: #0000001a;
+  --chartory-base-black-a16: #00000029;
+  --chartory-base-black-a35: #00000059;
+  --chartory-base-black-a45: #00000073;
+  --chartory-base-black-a50: #00000080;
+  --chartory-base-black-a6: #0000000f;
+  --chartory-base-black-a8: #00000014;
+  --chartory-base-white-a10: #ffffff1a;
+  --chartory-base-white-a25: #ffffff40;
+  --chartory-base-white-a6: #ffffff0f;
+  --chartory-base-white-a70: #ffffffb2;
+  --chartory-base-white-a80: #ffffffcc;
+  --chartory-blue-500-a16: #247cfd29;
+  --chartory-green-500-a16: #0fbf6329;
+  --chartory-orange-500-a0: #fe6d2b00;
+  --chartory-orange-500-a16: #fe6d2b29;
+  --chartory-orange-500-a50: #fe6d2b80;
+  --chartory-orange-600-a0: #e5500800;
+  --chartory-orange-600-a24: #e550083d;
+  --chartory-red-500-a16: #fe273629;
+  --chartory-yellow-500-a16: #f4b81129;
+  --chartory-base-black-a24: #0000003d;
+  --chartory-orange-500-a32: #fe6d2b52;
+  --chartory-neutral-925: #101215;
+}
+
+/* Chartory Light (253) */
+:root,
+[data-theme="chartory-light"] {
+  --chartory-bg-canvas: var(--chartory-neutral-50);
+  --chartory-bg-canvas-raised: var(--chartory-neutral-50);
+  --chartory-bg-canvas-deep: var(--chartory-neutral-100);
+  --chartory-bg-backdrop: var(--chartory-neutral-200);
+  --chartory-surface-panel: var(--chartory-neutral-100);
+  --chartory-surface-card: var(--chartory-base-white);
+  --chartory-surface-inset: var(--chartory-neutral-100);
+  --chartory-stroke-ring: var(--chartory-neutral-200);
+  --chartory-stroke-highlight: var(--chartory-base-white);
+  --chartory-stroke-edge: var(--chartory-base-white);
+  --chartory-text-primary: var(--chartory-neutral-950);
+  --chartory-text-secondary: var(--chartory-neutral-600);
+  --chartory-text-tertiary: var(--chartory-neutral-500);
+  --chartory-text-display: var(--chartory-neutral-950);
+  --chartory-accent-default: var(--chartory-orange-600);
+  --chartory-placeholder-fill: var(--chartory-neutral-200);
+  --chartory-radius-modal: 22px;
+  --chartory-radius-card: 16px;
+  --chartory-radius-inset: 6px;
+  --chartory-font-sans: var(--font-geist-sans, var(--font-geist, "Geist")), ui-sans-serif, system-ui, sans-serif;
+  --chartory-type-heading-s-size: 15px;
+  --chartory-type-heading-s-line-height: 20px;
+  --chartory-type-heading-s-weight: 400;
+  --chartory-type-body-m-size: 14px;
+  --chartory-type-body-m-line-height: 20px;
+  --chartory-type-body-m-weight: 400;
+  --chartory-type-body-s-size: 13px;
+  --chartory-type-body-s-line-height: 18px;
+  --chartory-type-body-s-weight: 400;
+  --chartory-text-subtle: var(--chartory-neutral-600);
+  --chartory-text-label: var(--chartory-neutral-700);
+  --chartory-grid-line: var(--chartory-neutral-100);
+  --chartory-grid-line-strong: var(--chartory-neutral-200);
+  --chartory-grid-node: var(--chartory-neutral-300);
+  --chartory-button-secondary-fill-top: var(--chartory-base-white);
+  --chartory-button-secondary-fill-bottom: var(--chartory-neutral-50);
+  --chartory-button-secondary-edge: var(--chartory-base-white);
+  --chartory-button-ring: var(--chartory-neutral-300);
+  --chartory-button-ghost-fill: var(--chartory-base-white);
+  --chartory-button-ghost-stroke: var(--chartory-neutral-200);
+  --chartory-glow-accent: var(--chartory-orange-400);
+  --chartory-radius-pill: 999px;
+  --chartory-type-display-l-size: 52px;
+  --chartory-type-display-l-line-height: 60px;
+  --chartory-type-display-l-weight: 500;
+  --chartory-type-display-l-tracking: -3.45px;
+  --chartory-type-body-l-size: 18px;
+  --chartory-type-body-l-line-height: 29px;
+  --chartory-type-body-l-weight: 400;
+  --chartory-type-body-l-tracking: -0.15px;
+  --chartory-type-label-m-size: 14px;
+  --chartory-type-label-m-line-height: 20px;
+  --chartory-type-label-m-weight: 500;
+  --chartory-type-label-m-tracking: 0px;
+  --chartory-text-bright: var(--chartory-neutral-950);
+  --chartory-text-caption: var(--chartory-neutral-500);
+  --chartory-stroke-card: var(--chartory-neutral-200);
+  --chartory-art-line: var(--chartory-neutral-200);
+  --chartory-art-line-strong: var(--chartory-neutral-400);
+  --chartory-radius-tile: 6px;
+  --chartory-type-label-caps-size: 10px;
+  --chartory-type-label-caps-line-height: 14px;
+  --chartory-type-label-caps-weight: 400;
+  --chartory-type-label-caps-tracking: 1.2px;
+  --chartory-text-muted: var(--chartory-neutral-500);
+  --chartory-text-disabled: var(--chartory-neutral-300);
+  --chartory-surface-row: var(--chartory-base-white);
+  --chartory-stroke-divider: var(--chartory-neutral-200);
+  --chartory-stroke-input: var(--chartory-neutral-300);
+  --chartory-toggle-on: var(--chartory-orange-600);
+  --chartory-toggle-on-edge: var(--chartory-orange-700);
+  --chartory-toggle-knob: var(--chartory-base-white);
+  --chartory-toggle-off: var(--chartory-neutral-200);
+  --chartory-toggle-knob-off: var(--chartory-base-white);
+  --chartory-radius-panel: 20px;
+  --chartory-radius-input: 8px;
+  --chartory-radius-toggle: 6px;
+  --chartory-radius-knob: 3px;
+  --chartory-icon-muted: var(--chartory-neutral-400);
+  --chartory-segment-track: var(--chartory-neutral-100);
+  --chartory-segment-selected: var(--chartory-base-white);
+  --chartory-stroke-segment: var(--chartory-neutral-200);
+  --chartory-text-value: var(--chartory-neutral-800);
+  --chartory-text-field-label: var(--chartory-neutral-500);
+  --chartory-surface-field: var(--chartory-neutral-50);
+  --chartory-radius-field: 8px;
+  --chartory-radius-segment: 6px;
+  --chartory-radius-swatch: 3px;
+  --chartory-slider-fill: var(--chartory-neutral-300);
+  --chartory-segment-selected-bottom: var(--chartory-base-white);
+  --chartory-stroke-field: var(--chartory-neutral-200);
+  --chartory-radius-slider: 5px;
+  --chartory-menu-item-selected: var(--chartory-neutral-100);
+  --chartory-menu-icon-selected: var(--chartory-neutral-100);
+  --chartory-stroke-composer: var(--chartory-neutral-200);
+  --chartory-radius-menu: 14px;
+  --chartory-radius-item: 8px;
+  --chartory-radius-composer: 10px;
+  --chartory-radius-chip: 6px;
+  --chartory-type-body-menu-size: 14px;
+  --chartory-type-body-menu-line-height: 20px;
+  --chartory-type-body-menu-weight: 400;
+  --chartory-type-label-s-size: 11px;
+  --chartory-type-label-s-line-height: 14px;
+  --chartory-type-label-s-weight: 400;
+  --chartory-button-neutral-top: var(--chartory-neutral-50);
+  --chartory-button-neutral-bottom: var(--chartory-neutral-100);
+  --chartory-button-primary-top: var(--chartory-orange-500);
+  --chartory-art-line-soft: var(--chartory-neutral-100);
+  --chartory-art-node: var(--chartory-neutral-300);
+  --chartory-radius-button: 8px;
+  --chartory-type-display-m-size: 28px;
+  --chartory-type-display-m-line-height: 34px;
+  --chartory-type-display-m-weight: 500;
+  --chartory-type-body-lead-size: 17px;
+  --chartory-type-body-lead-line-height: 28px;
+  --chartory-type-body-lead-weight: 400;
+  --chartory-text-strong: var(--chartory-neutral-900);
+  --chartory-text-lead: var(--chartory-neutral-600);
+  --chartory-text-quiet: var(--chartory-neutral-500);
+  --chartory-text-action: var(--chartory-neutral-600);
+  --chartory-surface-list: var(--chartory-base-white);
+  --chartory-stroke-list-ring: var(--chartory-neutral-200);
+  --chartory-stroke-list-edge: var(--chartory-base-white);
+  --chartory-toggle-on-deep: var(--chartory-orange-700);
+  --chartory-toggle-knob-soft: var(--chartory-base-white);
+  --chartory-toggle-off-track: var(--chartory-neutral-200);
+  --chartory-toggle-off-ring: var(--chartory-neutral-300);
+  --chartory-toggle-off-knob: var(--chartory-base-white);
+  --chartory-radius-list: 16px;
+  --chartory-text-button: var(--chartory-neutral-800);
+  --chartory-text-version: var(--chartory-neutral-400);
+  --chartory-button-app-top: var(--chartory-base-white);
+  --chartory-button-app-bottom: var(--chartory-neutral-50);
+  --chartory-button-app-ring: var(--chartory-neutral-200);
+  --chartory-text-ghost: var(--chartory-neutral-200);
+  --chartory-text-placeholder: var(--chartory-neutral-400);
+  --chartory-text-selected: var(--chartory-neutral-950);
+  --chartory-text-unselected: var(--chartory-neutral-500);
+  --chartory-grid-frame: var(--chartory-neutral-200);
+  --chartory-grid-ring: var(--chartory-neutral-100);
+  --chartory-grid-dot: var(--chartory-neutral-300);
+  --chartory-grid-cross: var(--chartory-neutral-300);
+  --chartory-art-ember-dot: var(--chartory-orange-100);
+  --chartory-glow-warm: var(--chartory-orange-100);
+  --chartory-composer-shell: var(--chartory-neutral-100);
+  --chartory-composer-edge: var(--chartory-neutral-200);
+  --chartory-composer-field: var(--chartory-base-white);
+  --chartory-chip-fill: var(--chartory-base-white);
+  --chartory-chip-stroke: var(--chartory-neutral-200);
+  --chartory-segment-raised-top: var(--chartory-base-white);
+  --chartory-segment-raised-bottom: var(--chartory-neutral-50);
+  --chartory-radius-shell: 20px;
+  --chartory-radius-app-icon: 22px;
+  --chartory-accent-disabled: var(--chartory-orange-200);
+  --chartory-accent-disabled-edge: var(--chartory-orange-300);
+  --chartory-text-on-disabled: var(--chartory-neutral-400);
+  --chartory-surface-onboarding-list: var(--chartory-base-white);
+  --chartory-stroke-onboarding-edge: var(--chartory-base-white);
+  --chartory-stroke-onboarding-divider: var(--chartory-neutral-100);
+  --chartory-pill-top: var(--chartory-base-white);
+  --chartory-pill-bottom: var(--chartory-neutral-50);
+  --chartory-pill-edge: var(--chartory-base-white);
+  --chartory-pill-ring: var(--chartory-neutral-300);
+  --chartory-radius-app-icon-l: 24px;
+  --chartory-type-display-title-size: 32px;
+  --chartory-type-display-title-line-height: 38px;
+  --chartory-type-display-title-weight: 500;
+  --chartory-bg-backdrop-ghost: var(--chartory-neutral-100);
+  --chartory-status-success: var(--chartory-green-600);
+  --chartory-status-success-bg: var(--chartory-green-100);
+  --chartory-status-warning: var(--chartory-yellow-600);
+  --chartory-status-warning-bg: var(--chartory-yellow-100);
+  --chartory-status-danger: var(--chartory-red-600);
+  --chartory-status-danger-bg: var(--chartory-red-100);
+  --chartory-status-info: var(--chartory-blue-600);
+  --chartory-status-info-bg: var(--chartory-blue-100);
+  --chartory-data-primary: var(--chartory-orange-600);
+  --chartory-data-primary-soft: var(--chartory-orange-400);
+  --chartory-data-track: var(--chartory-neutral-100);
+  --chartory-data-idle: var(--chartory-neutral-100);
+  --chartory-data-hatch: var(--chartory-neutral-300);
+  --chartory-data-grid: var(--chartory-neutral-200);
+  --chartory-data-seq-1: var(--chartory-orange-100);
+  --chartory-data-seq-2: var(--chartory-orange-200);
+  --chartory-data-seq-3: var(--chartory-orange-300);
+  --chartory-data-seq-4: var(--chartory-orange-400);
+  --chartory-data-seq-5: var(--chartory-orange-500);
+  --chartory-data-seq-6: var(--chartory-orange-600);
+  --chartory-data-cat-1: var(--chartory-orange-600);
+  --chartory-data-cat-2: var(--chartory-blue-600);
+  --chartory-data-cat-3: var(--chartory-teal-500);
+  --chartory-data-cat-4: var(--chartory-violet-500);
+  --chartory-data-cat-5: var(--chartory-yellow-600);
+  --chartory-data-cat-6: var(--chartory-fuchsia-600);
+  --chartory-data-cat-7: var(--chartory-green-600);
+  --chartory-data-cat-8: var(--chartory-sky-600);
+  --chartory-data-cat-9: var(--chartory-neutral-400);
+  --chartory-data-cat-10: var(--chartory-violet-400);
+  --chartory-surface-inverse: var(--chartory-neutral-950);
+  --chartory-text-inverse: var(--chartory-base-white);
+  --chartory-accent-subtle: var(--chartory-orange-50);
+  --chartory-text-on-data: var(--chartory-base-white);
+  --chartory-text-on-tint: var(--chartory-orange-800);
+  --chartory-effect-highlight: var(--chartory-base-white-a70);
+  --chartory-effect-highlight-strong: var(--chartory-base-white-a80);
+  --chartory-effect-ring-selected: var(--chartory-base-black-a10);
+  --chartory-effect-shadow-shell: var(--chartory-base-black-a8);
+  --chartory-effect-shadow-overlay: var(--chartory-base-black-a16);
+  --chartory-effect-shadow-tooltip: var(--chartory-base-black-a16);
+  --chartory-effect-shadow-chip: var(--chartory-base-black-a8);
+  --chartory-effect-shadow-contact: var(--chartory-base-black-a6);
+  --chartory-effect-shell-y: 10px;
+  --chartory-effect-shell-blur: 30px;
+  --chartory-surface-skeleton: var(--chartory-neutral-100);
+  --chartory-data-area-top: var(--chartory-orange-600-a24);
+  --chartory-data-area-bottom: var(--chartory-orange-600-a0);
+  --chartory-shadow-elevation: var(--chartory-base-black-a8);
+  --chartory-shadow-elevation-strong: var(--chartory-base-black-a24);
+  --chartory-shadow-focus: var(--chartory-orange-600-a24);
+  --chartory-kit-text-tertiary: var(--chartory-neutral-500);
+  --chartory-kit-text-unselected: var(--chartory-neutral-500);
+  --chartory-kit-text-caption: var(--chartory-neutral-500);
+  --chartory-kit-text-quiet: var(--chartory-neutral-500);
+  --chartory-kit-status-success: var(--chartory-green-600);
+  --chartory-kit-status-warning: var(--chartory-yellow-600);
+  --chartory-fx-shell-10-30: inline;
+  --chartory-fx-shell-8-24: none;
+  --chartory-effect-shadow-2xs: 0px 1px 0px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xs: 0px 1px 2px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-sm: 0px 1px 3px 0px var(--chartory-shadow-elevation), 0px 1px 2px -1px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-md: 0px 4px 8px -2px var(--chartory-shadow-elevation), 0px 2px 4px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-lg: 0px 12px 16px -4px var(--chartory-shadow-elevation), 0px 4px 6px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xl: 0px 20px 24px -4px var(--chartory-shadow-elevation), 0px 8px 8px -4px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-2xl: 0px 24px 48px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-3xl: 0px 32px 64px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-focus: 0px 0px 0px 3px var(--chartory-shadow-focus);
+  --chartory-data-cat-1-soft: var(--chartory-orange-400);
+  --chartory-data-cat-1-area-top: var(--chartory-orange-600-a24);
+  --chartory-data-cat-1-area-bottom: var(--chartory-orange-600-a0);
+  --chartory-data-cat-2-soft: var(--chartory-blue-400);
+  --chartory-data-cat-2-area-top: color-mix(in srgb, var(--chartory-data-cat-2) 24%, transparent);
+  --chartory-data-cat-2-area-bottom: color-mix(in srgb, var(--chartory-data-cat-2) 0%, transparent);
+  --chartory-data-cat-3-soft: var(--chartory-teal-300);
+  --chartory-data-cat-3-area-top: color-mix(in srgb, var(--chartory-data-cat-3) 24%, transparent);
+  --chartory-data-cat-3-area-bottom: color-mix(in srgb, var(--chartory-data-cat-3) 0%, transparent);
+  --chartory-data-cat-4-soft: var(--chartory-violet-300);
+  --chartory-data-cat-4-area-top: color-mix(in srgb, var(--chartory-data-cat-4) 24%, transparent);
+  --chartory-data-cat-4-area-bottom: color-mix(in srgb, var(--chartory-data-cat-4) 0%, transparent);
+  --chartory-chart-primary: var(--chartory-orange-600);
+  --chartory-chart-primary-soft: var(--chartory-orange-400);
+  --chartory-chart-area-top: var(--chartory-orange-600-a24);
+  --chartory-chart-area-bottom: var(--chartory-orange-600-a0);
+}
+
+/* Chartory Dark (253) */
+.dark,
+[data-theme="chartory-dark"] {
+  --chartory-bg-canvas: var(--chartory-neutral-950);
+  --chartory-bg-canvas-raised: var(--chartory-neutral-900);
+  --chartory-bg-canvas-deep: var(--chartory-neutral-925);
+  --chartory-bg-backdrop: var(--chartory-neutral-900);
+  --chartory-surface-panel: var(--chartory-neutral-900);
+  --chartory-surface-card: var(--chartory-neutral-800);
+  --chartory-surface-inset: var(--chartory-neutral-950);
+  --chartory-stroke-ring: var(--chartory-neutral-950);
+  --chartory-stroke-highlight: var(--chartory-neutral-800);
+  --chartory-stroke-edge: var(--chartory-neutral-800);
+  --chartory-text-primary: var(--chartory-neutral-50);
+  --chartory-text-secondary: var(--chartory-neutral-400);
+  --chartory-text-tertiary: var(--chartory-neutral-500);
+  --chartory-text-display: var(--chartory-neutral-50);
+  --chartory-accent-default: var(--chartory-orange-500);
+  --chartory-placeholder-fill: var(--chartory-neutral-800);
+  --chartory-radius-modal: 22px;
+  --chartory-radius-card: 16px;
+  --chartory-radius-inset: 6px;
+  --chartory-font-sans: var(--font-geist-sans, var(--font-geist, "Geist")), ui-sans-serif, system-ui, sans-serif;
+  --chartory-type-heading-s-size: 15px;
+  --chartory-type-heading-s-line-height: 20px;
+  --chartory-type-heading-s-weight: 400;
+  --chartory-type-body-m-size: 14px;
+  --chartory-type-body-m-line-height: 20px;
+  --chartory-type-body-m-weight: 400;
+  --chartory-type-body-s-size: 13px;
+  --chartory-type-body-s-line-height: 18px;
+  --chartory-type-body-s-weight: 400;
+  --chartory-text-subtle: var(--chartory-neutral-400);
+  --chartory-text-label: var(--chartory-neutral-300);
+  --chartory-grid-line: var(--chartory-neutral-900);
+  --chartory-grid-line-strong: var(--chartory-neutral-800);
+  --chartory-grid-node: var(--chartory-neutral-800);
+  --chartory-button-secondary-fill-top: var(--chartory-neutral-800);
+  --chartory-button-secondary-fill-bottom: var(--chartory-neutral-900);
+  --chartory-button-secondary-edge: var(--chartory-neutral-700);
+  --chartory-button-ring: var(--chartory-neutral-950);
+  --chartory-button-ghost-fill: var(--chartory-neutral-900);
+  --chartory-button-ghost-stroke: var(--chartory-neutral-700);
+  --chartory-glow-accent: var(--chartory-orange-400);
+  --chartory-radius-pill: 999px;
+  --chartory-type-display-l-size: 52px;
+  --chartory-type-display-l-line-height: 60px;
+  --chartory-type-display-l-weight: 500;
+  --chartory-type-display-l-tracking: -3.45px;
+  --chartory-type-body-l-size: 18px;
+  --chartory-type-body-l-line-height: 29px;
+  --chartory-type-body-l-weight: 400;
+  --chartory-type-body-l-tracking: -0.15px;
+  --chartory-type-label-m-size: 14px;
+  --chartory-type-label-m-line-height: 20px;
+  --chartory-type-label-m-weight: 500;
+  --chartory-type-label-m-tracking: 0px;
+  --chartory-text-bright: var(--chartory-base-white);
+  --chartory-text-caption: var(--chartory-neutral-500);
+  --chartory-stroke-card: var(--chartory-neutral-800);
+  --chartory-art-line: var(--chartory-neutral-800);
+  --chartory-art-line-strong: var(--chartory-neutral-500);
+  --chartory-radius-tile: 6px;
+  --chartory-type-label-caps-size: 10px;
+  --chartory-type-label-caps-line-height: 14px;
+  --chartory-type-label-caps-weight: 400;
+  --chartory-type-label-caps-tracking: 1.2px;
+  --chartory-text-muted: var(--chartory-neutral-400);
+  --chartory-text-disabled: var(--chartory-neutral-600);
+  --chartory-surface-row: var(--chartory-neutral-900);
+  --chartory-stroke-divider: var(--chartory-neutral-800);
+  --chartory-stroke-input: var(--chartory-neutral-700);
+  --chartory-toggle-on: var(--chartory-orange-500);
+  --chartory-toggle-on-edge: var(--chartory-orange-700);
+  --chartory-toggle-knob: var(--chartory-base-white);
+  --chartory-toggle-off: var(--chartory-neutral-800);
+  --chartory-toggle-knob-off: var(--chartory-neutral-400);
+  --chartory-radius-panel: 20px;
+  --chartory-radius-input: 8px;
+  --chartory-radius-toggle: 6px;
+  --chartory-radius-knob: 3px;
+  --chartory-icon-muted: var(--chartory-neutral-600);
+  --chartory-segment-track: var(--chartory-neutral-800);
+  --chartory-segment-selected: var(--chartory-neutral-700);
+  --chartory-stroke-segment: var(--chartory-neutral-700);
+  --chartory-text-value: var(--chartory-neutral-200);
+  --chartory-text-field-label: var(--chartory-neutral-400);
+  --chartory-surface-field: var(--chartory-neutral-800);
+  --chartory-radius-field: 8px;
+  --chartory-radius-segment: 6px;
+  --chartory-radius-swatch: 3px;
+  --chartory-slider-fill: var(--chartory-neutral-700);
+  --chartory-segment-selected-bottom: var(--chartory-neutral-700);
+  --chartory-stroke-field: var(--chartory-neutral-700);
+  --chartory-radius-slider: 5px;
+  --chartory-menu-item-selected: var(--chartory-neutral-700);
+  --chartory-menu-icon-selected: var(--chartory-neutral-700);
+  --chartory-stroke-composer: var(--chartory-neutral-800);
+  --chartory-radius-menu: 14px;
+  --chartory-radius-item: 8px;
+  --chartory-radius-composer: 10px;
+  --chartory-radius-chip: 6px;
+  --chartory-type-body-menu-size: 14px;
+  --chartory-type-body-menu-line-height: 20px;
+  --chartory-type-body-menu-weight: 400;
+  --chartory-type-label-s-size: 11px;
+  --chartory-type-label-s-line-height: 14px;
+  --chartory-type-label-s-weight: 400;
+  --chartory-button-neutral-top: var(--chartory-neutral-700);
+  --chartory-button-neutral-bottom: var(--chartory-neutral-800);
+  --chartory-button-primary-top: var(--chartory-orange-400);
+  --chartory-art-line-soft: var(--chartory-neutral-800);
+  --chartory-art-node: var(--chartory-neutral-700);
+  --chartory-radius-button: 8px;
+  --chartory-type-display-m-size: 28px;
+  --chartory-type-display-m-line-height: 34px;
+  --chartory-type-display-m-weight: 500;
+  --chartory-type-body-lead-size: 17px;
+  --chartory-type-body-lead-line-height: 28px;
+  --chartory-type-body-lead-weight: 400;
+  --chartory-text-strong: var(--chartory-neutral-100);
+  --chartory-text-lead: var(--chartory-neutral-400);
+  --chartory-text-quiet: var(--chartory-neutral-500);
+  --chartory-text-action: var(--chartory-neutral-400);
+  --chartory-surface-list: var(--chartory-neutral-900);
+  --chartory-stroke-list-ring: var(--chartory-neutral-950);
+  --chartory-stroke-list-edge: var(--chartory-neutral-800);
+  --chartory-toggle-on-deep: var(--chartory-orange-700);
+  --chartory-toggle-knob-soft: var(--chartory-neutral-100);
+  --chartory-toggle-off-track: var(--chartory-neutral-800);
+  --chartory-toggle-off-ring: var(--chartory-neutral-950);
+  --chartory-toggle-off-knob: var(--chartory-neutral-400);
+  --chartory-radius-list: 16px;
+  --chartory-text-button: var(--chartory-neutral-200);
+  --chartory-text-version: var(--chartory-neutral-600);
+  --chartory-button-app-top: var(--chartory-neutral-700);
+  --chartory-button-app-bottom: var(--chartory-neutral-800);
+  --chartory-button-app-ring: var(--chartory-neutral-950);
+  --chartory-text-ghost: var(--chartory-neutral-800);
+  --chartory-text-placeholder: var(--chartory-neutral-600);
+  --chartory-text-selected: var(--chartory-neutral-50);
+  --chartory-text-unselected: var(--chartory-neutral-500);
+  --chartory-grid-frame: var(--chartory-neutral-800);
+  --chartory-grid-ring: var(--chartory-neutral-900);
+  --chartory-grid-dot: var(--chartory-neutral-800);
+  --chartory-grid-cross: var(--chartory-neutral-700);
+  --chartory-art-ember-dot: var(--chartory-orange-900);
+  --chartory-glow-warm: var(--chartory-orange-300);
+  --chartory-composer-shell: var(--chartory-neutral-900);
+  --chartory-composer-edge: var(--chartory-neutral-800);
+  --chartory-composer-field: var(--chartory-neutral-950);
+  --chartory-chip-fill: var(--chartory-neutral-800);
+  --chartory-chip-stroke: var(--chartory-neutral-900);
+  --chartory-segment-raised-top: var(--chartory-neutral-700);
+  --chartory-segment-raised-bottom: var(--chartory-neutral-800);
+  --chartory-radius-shell: 20px;
+  --chartory-radius-app-icon: 22px;
+  --chartory-accent-disabled: var(--chartory-orange-900);
+  --chartory-accent-disabled-edge: var(--chartory-orange-800);
+  --chartory-text-on-disabled: var(--chartory-neutral-600);
+  --chartory-surface-onboarding-list: var(--chartory-neutral-900);
+  --chartory-stroke-onboarding-edge: var(--chartory-neutral-800);
+  --chartory-stroke-onboarding-divider: var(--chartory-neutral-800);
+  --chartory-pill-top: var(--chartory-neutral-700);
+  --chartory-pill-bottom: var(--chartory-neutral-800);
+  --chartory-pill-edge: var(--chartory-neutral-600);
+  --chartory-pill-ring: var(--chartory-neutral-950);
+  --chartory-radius-app-icon-l: 24px;
+  --chartory-type-display-title-size: 32px;
+  --chartory-type-display-title-line-height: 38px;
+  --chartory-type-display-title-weight: 500;
+  --chartory-bg-backdrop-ghost: var(--chartory-neutral-900);
+  --chartory-status-success: var(--chartory-green-500);
+  --chartory-status-success-bg: var(--chartory-green-500-a16);
+  --chartory-status-warning: var(--chartory-yellow-500);
+  --chartory-status-warning-bg: var(--chartory-yellow-500-a16);
+  --chartory-status-danger: var(--chartory-red-500);
+  --chartory-status-danger-bg: var(--chartory-red-500-a16);
+  --chartory-status-info: var(--chartory-blue-500);
+  --chartory-status-info-bg: var(--chartory-blue-500-a16);
+  --chartory-data-primary: var(--chartory-orange-500);
+  --chartory-data-primary-soft: var(--chartory-orange-400);
+  --chartory-data-track: var(--chartory-neutral-800);
+  --chartory-data-idle: var(--chartory-neutral-800);
+  --chartory-data-hatch: var(--chartory-neutral-700);
+  --chartory-data-grid: var(--chartory-neutral-800);
+  --chartory-data-seq-1: var(--chartory-orange-950);
+  --chartory-data-seq-2: var(--chartory-orange-800);
+  --chartory-data-seq-3: var(--chartory-orange-700);
+  --chartory-data-seq-4: var(--chartory-orange-600);
+  --chartory-data-seq-5: var(--chartory-orange-500);
+  --chartory-data-seq-6: var(--chartory-orange-400);
+  --chartory-data-cat-1: var(--chartory-orange-500);
+  --chartory-data-cat-2: var(--chartory-blue-500);
+  --chartory-data-cat-3: var(--chartory-teal-400);
+  --chartory-data-cat-4: var(--chartory-violet-500);
+  --chartory-data-cat-5: var(--chartory-yellow-500);
+  --chartory-data-cat-6: var(--chartory-fuchsia-500);
+  --chartory-data-cat-7: var(--chartory-green-500);
+  --chartory-data-cat-8: var(--chartory-sky-500);
+  --chartory-data-cat-9: var(--chartory-neutral-500);
+  --chartory-data-cat-10: var(--chartory-violet-400);
+  --chartory-surface-inverse: var(--chartory-neutral-50);
+  --chartory-text-inverse: var(--chartory-neutral-950);
+  --chartory-accent-subtle: var(--chartory-orange-500-a16);
+  --chartory-text-on-data: var(--chartory-base-white);
+  --chartory-text-on-tint: var(--chartory-orange-200);
+  --chartory-effect-highlight: var(--chartory-base-white-a6);
+  --chartory-effect-highlight-strong: var(--chartory-base-white-a10);
+  --chartory-effect-ring-selected: var(--chartory-base-white-a25);
+  --chartory-effect-shadow-shell: var(--chartory-base-black-a35);
+  --chartory-effect-shadow-overlay: var(--chartory-base-black-a45);
+  --chartory-effect-shadow-tooltip: var(--chartory-base-black-a50);
+  --chartory-effect-shadow-chip: var(--chartory-base-black-a35);
+  --chartory-effect-shadow-contact: var(--chartory-base-black-a0);
+  --chartory-effect-shell-y: 10px;
+  --chartory-effect-shell-blur: 30px;
+  --chartory-surface-skeleton: var(--chartory-neutral-800);
+  --chartory-data-area-top: var(--chartory-orange-500-a50);
+  --chartory-data-area-bottom: var(--chartory-orange-500-a0);
+  --chartory-shadow-elevation: var(--chartory-neutral-800);
+  --chartory-shadow-elevation-strong: var(--chartory-neutral-800);
+  --chartory-shadow-focus: var(--chartory-orange-500-a32);
+  --chartory-kit-text-tertiary: var(--chartory-neutral-500);
+  --chartory-kit-text-unselected: var(--chartory-neutral-500);
+  --chartory-kit-text-caption: var(--chartory-neutral-500);
+  --chartory-kit-text-quiet: var(--chartory-neutral-500);
+  --chartory-kit-status-success: var(--chartory-green-500);
+  --chartory-kit-status-warning: var(--chartory-yellow-500);
+  --chartory-fx-shell-10-30: inline;
+  --chartory-fx-shell-8-24: none;
+  --chartory-effect-shadow-2xs: 0px 1px 0px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xs: 0px 1px 2px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-sm: 0px 1px 3px 0px var(--chartory-shadow-elevation), 0px 1px 2px -1px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-md: 0px 4px 8px -2px var(--chartory-shadow-elevation), 0px 2px 4px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-lg: 0px 12px 16px -4px var(--chartory-shadow-elevation), 0px 4px 6px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xl: 0px 20px 24px -4px var(--chartory-shadow-elevation), 0px 8px 8px -4px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-2xl: 0px 24px 48px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-3xl: 0px 32px 64px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-focus: 0px 0px 0px 3px var(--chartory-shadow-focus);
+  --chartory-data-cat-1-soft: var(--chartory-orange-400);
+  --chartory-data-cat-1-area-top: var(--chartory-orange-500-a50);
+  --chartory-data-cat-1-area-bottom: var(--chartory-orange-500-a0);
+  --chartory-data-cat-2-soft: var(--chartory-blue-400);
+  --chartory-data-cat-2-area-top: color-mix(in srgb, var(--chartory-data-cat-2) 50%, transparent);
+  --chartory-data-cat-2-area-bottom: color-mix(in srgb, var(--chartory-data-cat-2) 0%, transparent);
+  --chartory-data-cat-3-soft: var(--chartory-teal-300);
+  --chartory-data-cat-3-area-top: color-mix(in srgb, var(--chartory-data-cat-3) 50%, transparent);
+  --chartory-data-cat-3-area-bottom: color-mix(in srgb, var(--chartory-data-cat-3) 0%, transparent);
+  --chartory-data-cat-4-soft: var(--chartory-violet-400);
+  --chartory-data-cat-4-area-top: color-mix(in srgb, var(--chartory-data-cat-4) 50%, transparent);
+  --chartory-data-cat-4-area-bottom: color-mix(in srgb, var(--chartory-data-cat-4) 0%, transparent);
+  --chartory-chart-primary: var(--chartory-orange-500);
+  --chartory-chart-primary-soft: var(--chartory-orange-400);
+  --chartory-chart-area-top: var(--chartory-orange-500-a50);
+  --chartory-chart-area-bottom: var(--chartory-orange-500-a0);
+}
+
+/* Ember (253) */
+[data-theme="ember"] {
+  --chartory-bg-canvas: #171717;
+  --chartory-bg-canvas-raised: #1f1f1f;
+  --chartory-bg-canvas-deep: #141414;
+  --chartory-bg-backdrop: #1b1a1a;
+  --chartory-surface-panel: #2b2b2b;
+  --chartory-surface-card: #323232;
+  --chartory-surface-inset: #1e1e1e;
+  --chartory-stroke-ring: #222222;
+  --chartory-stroke-highlight: #414141;
+  --chartory-stroke-edge: #3a3a3a;
+  --chartory-text-primary: #f4f4f4;
+  --chartory-text-secondary: #a7a7a7;
+  --chartory-text-tertiary: #8a8a8a;
+  --chartory-text-display: #f3efea;
+  --chartory-accent-default: #c94821;
+  --chartory-placeholder-fill: #3a3a3a;
+  --chartory-radius-modal: 22px;
+  --chartory-radius-card: 16px;
+  --chartory-radius-inset: 6px;
+  --chartory-font-sans: var(--font-geist-sans, var(--font-geist, "Geist")), ui-sans-serif, system-ui, sans-serif;
+  --chartory-type-heading-s-size: 15px;
+  --chartory-type-heading-s-line-height: 20px;
+  --chartory-type-heading-s-weight: 400;
+  --chartory-type-body-m-size: 14px;
+  --chartory-type-body-m-line-height: 20px;
+  --chartory-type-body-m-weight: 400;
+  --chartory-type-body-s-size: 13px;
+  --chartory-type-body-s-line-height: 18px;
+  --chartory-type-body-s-weight: 400;
+  --chartory-text-subtle: #9d9d9d;
+  --chartory-text-label: #c9c9c9;
+  --chartory-grid-line: #191919;
+  --chartory-grid-line-strong: #1f1f1f;
+  --chartory-grid-node: #242424;
+  --chartory-button-secondary-fill-top: #2f2e2e;
+  --chartory-button-secondary-fill-bottom: #2b2827;
+  --chartory-button-secondary-edge: #393939;
+  --chartory-button-ring: #0e0e0e;
+  --chartory-button-ghost-fill: #1c1c1c;
+  --chartory-button-ghost-stroke: #383838;
+  --chartory-glow-accent: #e0874c;
+  --chartory-radius-pill: 999px;
+  --chartory-type-display-l-size: 52px;
+  --chartory-type-display-l-line-height: 60px;
+  --chartory-type-display-l-weight: 500;
+  --chartory-type-display-l-tracking: -3.45px;
+  --chartory-type-body-l-size: 18px;
+  --chartory-type-body-l-line-height: 29px;
+  --chartory-type-body-l-weight: 400;
+  --chartory-type-body-l-tracking: -0.15px;
+  --chartory-type-label-m-size: 14px;
+  --chartory-type-label-m-line-height: 20px;
+  --chartory-type-label-m-weight: 500;
+  --chartory-type-label-m-tracking: 0px;
+  --chartory-text-bright: #fafafa;
+  --chartory-text-caption: #868686;
+  --chartory-stroke-card: #2c2c2c;
+  --chartory-art-line: #2c2c2c;
+  --chartory-art-line-strong: #8c8c8c;
+  --chartory-radius-tile: 6px;
+  --chartory-type-label-caps-size: 10px;
+  --chartory-type-label-caps-line-height: 14px;
+  --chartory-type-label-caps-weight: 400;
+  --chartory-type-label-caps-tracking: 1.2px;
+  --chartory-text-muted: #919191;
+  --chartory-text-disabled: #6d6d6d;
+  --chartory-surface-row: #2c2c2c;
+  --chartory-stroke-divider: #303030;
+  --chartory-stroke-input: #3c3c3c;
+  --chartory-toggle-on: #da522b;
+  --chartory-toggle-on-edge: #c45d2a;
+  --chartory-toggle-knob: #ffffff;
+  --chartory-toggle-off: #232323;
+  --chartory-toggle-knob-off: #989898;
+  --chartory-radius-panel: 20px;
+  --chartory-radius-input: 8px;
+  --chartory-radius-toggle: 6px;
+  --chartory-radius-knob: 3px;
+  --chartory-icon-muted: #5c5c5c;
+  --chartory-segment-track: #313131;
+  --chartory-segment-selected: #4b4b4b;
+  --chartory-stroke-segment: #414141;
+  --chartory-text-value: #d9d9d9;
+  --chartory-text-field-label: #969696;
+  --chartory-surface-field: #323232;
+  --chartory-radius-field: 8px;
+  --chartory-radius-segment: 6px;
+  --chartory-radius-swatch: 3px;
+  --chartory-slider-fill: #444444;
+  --chartory-segment-selected-bottom: #434343;
+  --chartory-stroke-field: #414141;
+  --chartory-radius-slider: 5px;
+  --chartory-menu-item-selected: #484848;
+  --chartory-menu-icon-selected: #454545;
+  --chartory-stroke-composer: #2e2e2e;
+  --chartory-radius-menu: 14px;
+  --chartory-radius-item: 8px;
+  --chartory-radius-composer: 10px;
+  --chartory-radius-chip: 6px;
+  --chartory-type-body-menu-size: 14px;
+  --chartory-type-body-menu-line-height: 20px;
+  --chartory-type-body-menu-weight: 400;
+  --chartory-type-label-s-size: 11px;
+  --chartory-type-label-s-line-height: 14px;
+  --chartory-type-label-s-weight: 400;
+  --chartory-button-neutral-top: #525252;
+  --chartory-button-neutral-bottom: #4a4a4a;
+  --chartory-button-primary-top: #cc4f2a;
+  --chartory-art-line-soft: #323232;
+  --chartory-art-node: #4e4e4e;
+  --chartory-radius-button: 8px;
+  --chartory-type-display-m-size: 28px;
+  --chartory-type-display-m-line-height: 34px;
+  --chartory-type-display-m-weight: 500;
+  --chartory-type-body-lead-size: 17px;
+  --chartory-type-body-lead-line-height: 28px;
+  --chartory-type-body-lead-weight: 400;
+  --chartory-text-strong: #f0f0f0;
+  --chartory-text-lead: #979797;
+  --chartory-text-quiet: #787878;
+  --chartory-text-action: #989898;
+  --chartory-surface-list: #2a2a2a;
+  --chartory-stroke-list-ring: #131313;
+  --chartory-stroke-list-edge: #343434;
+  --chartory-toggle-on-deep: #ae3e1d;
+  --chartory-toggle-knob-soft: #e6e6e6;
+  --chartory-toggle-off-track: #1d1d1d;
+  --chartory-toggle-off-ring: #161616;
+  --chartory-toggle-off-knob: #8c8c8c;
+  --chartory-radius-list: 16px;
+  --chartory-text-button: #c2c2c2;
+  --chartory-text-version: #565656;
+  --chartory-button-app-top: #424242;
+  --chartory-button-app-bottom: #3e3e3e;
+  --chartory-button-app-ring: #171717;
+  --chartory-text-ghost: #2d2d2d;
+  --chartory-text-placeholder: #565656;
+  --chartory-text-selected: #e5e5e5;
+  --chartory-text-unselected: #808080;
+  --chartory-grid-frame: #1f1f1f;
+  --chartory-grid-ring: #1b1b1b;
+  --chartory-grid-dot: #222222;
+  --chartory-grid-cross: #353535;
+  --chartory-art-ember-dot: #4c3329;
+  --chartory-glow-warm: #b6a492;
+  --chartory-composer-shell: #1f1f1f;
+  --chartory-composer-edge: #2a2a2a;
+  --chartory-composer-field: #141414;
+  --chartory-chip-fill: #252525;
+  --chartory-chip-stroke: #202020;
+  --chartory-segment-raised-top: #3a3a3a;
+  --chartory-segment-raised-bottom: #2f2f2f;
+  --chartory-radius-shell: 20px;
+  --chartory-radius-app-icon: 22px;
+  --chartory-accent-disabled: #5c2919;
+  --chartory-accent-disabled-edge: #341a12;
+  --chartory-text-on-disabled: #6c6c6c;
+  --chartory-surface-onboarding-list: #252525;
+  --chartory-stroke-onboarding-edge: #2f2f2f;
+  --chartory-stroke-onboarding-divider: #2e2e2e;
+  --chartory-pill-top: #3f3f3f;
+  --chartory-pill-bottom: #292929;
+  --chartory-pill-edge: #565656;
+  --chartory-pill-ring: #141414;
+  --chartory-radius-app-icon-l: 24px;
+  --chartory-type-display-title-size: 32px;
+  --chartory-type-display-title-line-height: 38px;
+  --chartory-type-display-title-weight: 500;
+  --chartory-bg-backdrop-ghost: #1f1e1e;
+  --chartory-status-success: #2eb67d;
+  --chartory-status-success-bg: #17291f;
+  --chartory-status-warning: #e5a13a;
+  --chartory-status-warning-bg: #33281a;
+  --chartory-status-danger: #e5534b;
+  --chartory-status-danger-bg: #341d1c;
+  --chartory-status-info: #4c8df6;
+  --chartory-status-info-bg: #1b2638;
+  --chartory-data-primary: #c94821;
+  --chartory-data-primary-soft: #e0874c;
+  --chartory-data-track: #3e3e3e;
+  --chartory-data-idle: #383838;
+  --chartory-data-hatch: #4a4a4a;
+  --chartory-data-grid: #3a3a3a;
+  --chartory-data-seq-1: #5a2a1b;
+  --chartory-data-seq-2: #723220;
+  --chartory-data-seq-3: #8a3b22;
+  --chartory-data-seq-4: #a44224;
+  --chartory-data-seq-5: #c04a25;
+  --chartory-data-seq-6: #de5a2c;
+  --chartory-data-cat-1: #c94821;
+  --chartory-data-cat-2: #4c7df0;
+  --chartory-data-cat-3: #2bb3a6;
+  --chartory-data-cat-4: #8b6cf0;
+  --chartory-data-cat-5: #e3a23b;
+  --chartory-data-cat-6: #d9558c;
+  --chartory-data-cat-7: #4fb85a;
+  --chartory-data-cat-8: #39b6d9;
+  --chartory-data-cat-9: #8e8e8e;
+  --chartory-data-cat-10: #b79cf5;
+  --chartory-surface-inverse: #f0f0f0;
+  --chartory-text-inverse: #141414;
+  --chartory-accent-subtle: #3a1e15;
+  --chartory-text-on-data: #f0f0f0;
+  --chartory-text-on-tint: #989898;
+  --chartory-effect-highlight: #ffffff0f;
+  --chartory-effect-highlight-strong: #ffffff1a;
+  --chartory-effect-ring-selected: #ffffff40;
+  --chartory-effect-shadow-shell: #00000059;
+  --chartory-effect-shadow-overlay: #00000073;
+  --chartory-effect-shadow-tooltip: #00000080;
+  --chartory-effect-shadow-chip: #00000059;
+  --chartory-effect-shadow-contact: #00000000;
+  --chartory-effect-shell-y: 8px;
+  --chartory-effect-shell-blur: 24px;
+  --chartory-surface-skeleton: #252525;
+  --chartory-data-area-top: #c9482180;
+  --chartory-data-area-bottom: #c9482100;
+  --chartory-shadow-elevation: #00000059;
+  --chartory-shadow-elevation-strong: #00000080;
+  --chartory-shadow-focus: #c9482152;
+  --chartory-kit-text-tertiary: #8a8a8a;
+  --chartory-kit-text-unselected: #808080;
+  --chartory-kit-text-caption: #868686;
+  --chartory-kit-text-quiet: #787878;
+  --chartory-kit-status-success: #2eb67d;
+  --chartory-kit-status-warning: #e5a13a;
+  --chartory-fx-shell-10-30: none;
+  --chartory-fx-shell-8-24: inline;
+  --chartory-effect-shadow-2xs: 0px 1px 0px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xs: 0px 1px 2px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-sm: 0px 1px 3px 0px var(--chartory-shadow-elevation), 0px 1px 2px -1px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-md: 0px 4px 8px -2px var(--chartory-shadow-elevation), 0px 2px 4px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-lg: 0px 12px 16px -4px var(--chartory-shadow-elevation), 0px 4px 6px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xl: 0px 20px 24px -4px var(--chartory-shadow-elevation), 0px 8px 8px -4px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-2xl: 0px 24px 48px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-3xl: 0px 32px 64px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-focus: 0px 0px 0px 3px var(--chartory-shadow-focus);
+  --chartory-data-cat-1-soft: #e0874c;
+  --chartory-data-cat-1-area-top: #c9482180;
+  --chartory-data-cat-1-area-bottom: #c9482100;
+  --chartory-data-cat-2-soft: #81abff;
+  --chartory-data-cat-2-area-top: color-mix(in srgb, var(--chartory-data-cat-2) 50%, transparent);
+  --chartory-data-cat-2-area-bottom: color-mix(in srgb, var(--chartory-data-cat-2) 0%, transparent);
+  --chartory-data-cat-3-soft: #81d9ce;
+  --chartory-data-cat-3-area-top: color-mix(in srgb, var(--chartory-data-cat-3) 50%, transparent);
+  --chartory-data-cat-3-area-bottom: color-mix(in srgb, var(--chartory-data-cat-3) 0%, transparent);
+  --chartory-data-cat-4-soft: #b19eff;
+  --chartory-data-cat-4-area-top: color-mix(in srgb, var(--chartory-data-cat-4) 50%, transparent);
+  --chartory-data-cat-4-area-bottom: color-mix(in srgb, var(--chartory-data-cat-4) 0%, transparent);
+  --chartory-chart-primary: #c94821;
+  --chartory-chart-primary-soft: #e0874c;
+  --chartory-chart-area-top: #c9482180;
+  --chartory-chart-area-bottom: #c9482100;
+}
+
+/* Ember Light (253) */
+[data-theme="ember-light"] {
+  --chartory-bg-canvas: #f7f7f7;
+  --chartory-bg-canvas-raised: #f5f5f5;
+  --chartory-bg-canvas-deep: #f0f0f0;
+  --chartory-bg-backdrop: #e5e5e5;
+  --chartory-surface-panel: #efefef;
+  --chartory-surface-card: #ffffff;
+  --chartory-surface-inset: #f5f5f5;
+  --chartory-stroke-ring: #e5e5e5;
+  --chartory-stroke-highlight: #ffffff;
+  --chartory-stroke-edge: #ffffff;
+  --chartory-text-primary: #171717;
+  --chartory-text-secondary: #525252;
+  --chartory-text-tertiary: #737373;
+  --chartory-text-display: #1c1917;
+  --chartory-accent-default: #e4572a;
+  --chartory-placeholder-fill: #e5e5e5;
+  --chartory-radius-modal: 22px;
+  --chartory-radius-card: 16px;
+  --chartory-radius-inset: 6px;
+  --chartory-font-sans: var(--font-geist-sans, var(--font-geist, "Geist")), ui-sans-serif, system-ui, sans-serif;
+  --chartory-type-heading-s-size: 15px;
+  --chartory-type-heading-s-line-height: 20px;
+  --chartory-type-heading-s-weight: 400;
+  --chartory-type-body-m-size: 14px;
+  --chartory-type-body-m-line-height: 20px;
+  --chartory-type-body-m-weight: 400;
+  --chartory-type-body-s-size: 13px;
+  --chartory-type-body-s-line-height: 18px;
+  --chartory-type-body-s-weight: 400;
+  --chartory-text-subtle: #616161;
+  --chartory-text-label: #404040;
+  --chartory-grid-line: #efefef;
+  --chartory-grid-line-strong: #e8e8e8;
+  --chartory-grid-node: #e0e0e0;
+  --chartory-button-secondary-fill-top: #ffffff;
+  --chartory-button-secondary-fill-bottom: #f7f7f7;
+  --chartory-button-secondary-edge: #ffffff;
+  --chartory-button-ring: #d9d9d9;
+  --chartory-button-ghost-fill: #ffffff;
+  --chartory-button-ghost-stroke: #dedede;
+  --chartory-glow-accent: #ee9363;
+  --chartory-radius-pill: 999px;
+  --chartory-type-display-l-size: 52px;
+  --chartory-type-display-l-line-height: 60px;
+  --chartory-type-display-l-weight: 500;
+  --chartory-type-display-l-tracking: -3.45px;
+  --chartory-type-body-l-size: 18px;
+  --chartory-type-body-l-line-height: 29px;
+  --chartory-type-body-l-weight: 400;
+  --chartory-type-body-l-tracking: -0.15px;
+  --chartory-type-label-m-size: 14px;
+  --chartory-type-label-m-line-height: 20px;
+  --chartory-type-label-m-weight: 500;
+  --chartory-type-label-m-tracking: 0px;
+  --chartory-text-bright: #0a0a0a;
+  --chartory-text-caption: #737373;
+  --chartory-stroke-card: #e5e5e5;
+  --chartory-art-line: #e5e5e5;
+  --chartory-art-line-strong: #8f8f8f;
+  --chartory-radius-tile: 6px;
+  --chartory-type-label-caps-size: 10px;
+  --chartory-type-label-caps-line-height: 14px;
+  --chartory-type-label-caps-weight: 400;
+  --chartory-type-label-caps-tracking: 1.2px;
+  --chartory-text-muted: #6b6b6b;
+  --chartory-text-disabled: #a3a3a3;
+  --chartory-surface-row: #ffffff;
+  --chartory-stroke-divider: #ebebeb;
+  --chartory-stroke-input: #d4d4d4;
+  --chartory-toggle-on: #e85b2e;
+  --chartory-toggle-on-edge: #d5532a;
+  --chartory-toggle-knob: #ffffff;
+  --chartory-toggle-off: #e0e0e0;
+  --chartory-toggle-knob-off: #ffffff;
+  --chartory-radius-panel: 20px;
+  --chartory-radius-input: 8px;
+  --chartory-radius-toggle: 6px;
+  --chartory-radius-knob: 3px;
+  --chartory-icon-muted: #a3a3a3;
+  --chartory-segment-track: #e8e8e8;
+  --chartory-segment-selected: #ffffff;
+  --chartory-stroke-segment: #e5e5e5;
+  --chartory-text-value: #262626;
+  --chartory-text-field-label: #737373;
+  --chartory-surface-field: #f5f5f5;
+  --chartory-radius-field: 8px;
+  --chartory-radius-segment: 6px;
+  --chartory-radius-swatch: 3px;
+  --chartory-slider-fill: #d4d4d4;
+  --chartory-segment-selected-bottom: #fafafa;
+  --chartory-stroke-field: #e5e5e5;
+  --chartory-radius-slider: 5px;
+  --chartory-menu-item-selected: #e8e8e8;
+  --chartory-menu-icon-selected: #ebebeb;
+  --chartory-stroke-composer: #e5e5e5;
+  --chartory-radius-menu: 14px;
+  --chartory-radius-item: 8px;
+  --chartory-radius-composer: 10px;
+  --chartory-radius-chip: 6px;
+  --chartory-type-body-menu-size: 14px;
+  --chartory-type-body-menu-line-height: 20px;
+  --chartory-type-body-menu-weight: 400;
+  --chartory-type-label-s-size: 11px;
+  --chartory-type-label-s-line-height: 14px;
+  --chartory-type-label-s-weight: 400;
+  --chartory-button-neutral-top: #f5f5f5;
+  --chartory-button-neutral-bottom: #ededed;
+  --chartory-button-primary-top: #ea6739;
+  --chartory-art-line-soft: #ededed;
+  --chartory-art-node: #cccccc;
+  --chartory-radius-button: 8px;
+  --chartory-type-display-m-size: 28px;
+  --chartory-type-display-m-line-height: 34px;
+  --chartory-type-display-m-weight: 500;
+  --chartory-type-body-lead-size: 17px;
+  --chartory-type-body-lead-line-height: 28px;
+  --chartory-type-body-lead-weight: 400;
+  --chartory-text-strong: #171717;
+  --chartory-text-lead: #5c5c5c;
+  --chartory-text-quiet: #7a7a7a;
+  --chartory-text-action: #6b6b6b;
+  --chartory-surface-list: #ffffff;
+  --chartory-stroke-list-ring: #e5e5e5;
+  --chartory-stroke-list-edge: #ffffff;
+  --chartory-toggle-on-deep: #c94a22;
+  --chartory-toggle-knob-soft: #ffffff;
+  --chartory-toggle-off-track: #e0e0e0;
+  --chartory-toggle-off-ring: #d4d4d4;
+  --chartory-toggle-off-knob: #ffffff;
+  --chartory-radius-list: 16px;
+  --chartory-text-button: #262626;
+  --chartory-text-version: #a3a3a3;
+  --chartory-button-app-top: #ffffff;
+  --chartory-button-app-bottom: #f7f7f7;
+  --chartory-button-app-ring: #dedede;
+  --chartory-text-ghost: #e5e5e5;
+  --chartory-text-placeholder: #a3a3a3;
+  --chartory-text-selected: #171717;
+  --chartory-text-unselected: #737373;
+  --chartory-grid-frame: #e5e5e5;
+  --chartory-grid-ring: #ededed;
+  --chartory-grid-dot: #e0e0e0;
+  --chartory-grid-cross: #d4d4d4;
+  --chartory-art-ember-dot: #f8dcd0;
+  --chartory-glow-warm: #e8dcd0;
+  --chartory-composer-shell: #efefef;
+  --chartory-composer-edge: #e3e3e3;
+  --chartory-composer-field: #ffffff;
+  --chartory-chip-fill: #ffffff;
+  --chartory-chip-stroke: #e5e5e5;
+  --chartory-segment-raised-top: #ffffff;
+  --chartory-segment-raised-bottom: #f7f7f7;
+  --chartory-radius-shell: 20px;
+  --chartory-radius-app-icon: 22px;
+  --chartory-accent-disabled: #f6d3c5;
+  --chartory-accent-disabled-edge: #efbda9;
+  --chartory-text-on-disabled: #a3a3a3;
+  --chartory-surface-onboarding-list: #ffffff;
+  --chartory-stroke-onboarding-edge: #ffffff;
+  --chartory-stroke-onboarding-divider: #ebebeb;
+  --chartory-pill-top: #ffffff;
+  --chartory-pill-bottom: #f5f5f5;
+  --chartory-pill-edge: #ffffff;
+  --chartory-pill-ring: #d9d9d9;
+  --chartory-radius-app-icon-l: 24px;
+  --chartory-type-display-title-size: 32px;
+  --chartory-type-display-title-line-height: 38px;
+  --chartory-type-display-title-weight: 500;
+  --chartory-bg-backdrop-ghost: #ebebeb;
+  --chartory-status-success: #12b76a;
+  --chartory-status-success-bg: #e3f8ec;
+  --chartory-status-warning: #f5a524;
+  --chartory-status-warning-bg: #fef3d7;
+  --chartory-status-danger: #f04438;
+  --chartory-status-danger-bg: #fee9e7;
+  --chartory-status-info: #2e90fa;
+  --chartory-status-info-bg: #e5f1ff;
+  --chartory-data-primary: #e4572a;
+  --chartory-data-primary-soft: #ee9363;
+  --chartory-data-track: #ebebeb;
+  --chartory-data-idle: #f0f0f0;
+  --chartory-data-hatch: #d4d4d4;
+  --chartory-data-grid: #e8e8e8;
+  --chartory-data-seq-1: #fbe3d9;
+  --chartory-data-seq-2: #f6c3ae;
+  --chartory-data-seq-3: #f0a083;
+  --chartory-data-seq-4: #ea7c58;
+  --chartory-data-seq-5: #e4572a;
+  --chartory-data-seq-6: #c4441e;
+  --chartory-data-cat-1: #e4572a;
+  --chartory-data-cat-2: #3e7bfa;
+  --chartory-data-cat-3: #14b8a6;
+  --chartory-data-cat-4: #8b5cf6;
+  --chartory-data-cat-5: #f5a524;
+  --chartory-data-cat-6: #ec4899;
+  --chartory-data-cat-7: #22c55e;
+  --chartory-data-cat-8: #06b6d4;
+  --chartory-data-cat-9: #94949c;
+  --chartory-data-cat-10: #a78bfa;
+  --chartory-surface-inverse: #171717;
+  --chartory-text-inverse: #fafafa;
+  --chartory-accent-subtle: #fcebe4;
+  --chartory-text-on-data: #ffffff;
+  --chartory-text-on-tint: #9a4222;
+  --chartory-effect-highlight: #ffffffb2;
+  --chartory-effect-highlight-strong: #ffffffcc;
+  --chartory-effect-ring-selected: #0f0e121f;
+  --chartory-effect-shadow-shell: #1b18381a;
+  --chartory-effect-shadow-overlay: #1b183824;
+  --chartory-effect-shadow-tooltip: #1b183829;
+  --chartory-effect-shadow-chip: #1b18381f;
+  --chartory-effect-shadow-contact: #1b18380f;
+  --chartory-effect-shell-y: 10px;
+  --chartory-effect-shell-blur: 30px;
+  --chartory-surface-skeleton: #f0f0f0;
+  --chartory-data-area-top: #e4572a47;
+  --chartory-data-area-bottom: #e4572a00;
+  --chartory-shadow-elevation: #00000014;
+  --chartory-shadow-elevation-strong: #0000003d;
+  --chartory-shadow-focus: #e4572a3d;
+  --chartory-kit-text-tertiary: #737373;
+  --chartory-kit-text-unselected: #737373;
+  --chartory-kit-text-caption: #737373;
+  --chartory-kit-text-quiet: #7a7a7a;
+  --chartory-kit-status-success: #12b76a;
+  --chartory-kit-status-warning: #f5a524;
+  --chartory-fx-shell-10-30: inline;
+  --chartory-fx-shell-8-24: none;
+  --chartory-effect-shadow-2xs: 0px 1px 0px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xs: 0px 1px 2px 0px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-sm: 0px 1px 3px 0px var(--chartory-shadow-elevation), 0px 1px 2px -1px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-md: 0px 4px 8px -2px var(--chartory-shadow-elevation), 0px 2px 4px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-lg: 0px 12px 16px -4px var(--chartory-shadow-elevation), 0px 4px 6px -2px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-xl: 0px 20px 24px -4px var(--chartory-shadow-elevation), 0px 8px 8px -4px var(--chartory-shadow-elevation);
+  --chartory-effect-shadow-2xl: 0px 24px 48px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-3xl: 0px 32px 64px -12px var(--chartory-shadow-elevation-strong);
+  --chartory-effect-shadow-focus: 0px 0px 0px 3px var(--chartory-shadow-focus);
+  --chartory-data-cat-1-soft: #ee9363;
+  --chartory-data-cat-1-area-top: #e4572a47;
+  --chartory-data-cat-1-area-bottom: #e4572a00;
+  --chartory-data-cat-2-soft: #76a4fc;
+  --chartory-data-cat-2-area-top: color-mix(in srgb, var(--chartory-data-cat-2) 28%, transparent);
+  --chartory-data-cat-2-area-bottom: color-mix(in srgb, var(--chartory-data-cat-2) 0%, transparent);
+  --chartory-data-cat-3-soft: #81d5c7;
+  --chartory-data-cat-3-area-top: color-mix(in srgb, var(--chartory-data-cat-3) 28%, transparent);
+  --chartory-data-cat-3-area-bottom: color-mix(in srgb, var(--chartory-data-cat-3) 0%, transparent);
+  --chartory-data-cat-4-soft: #a78ff9;
+  --chartory-data-cat-4-area-top: color-mix(in srgb, var(--chartory-data-cat-4) 28%, transparent);
+  --chartory-data-cat-4-area-bottom: color-mix(in srgb, var(--chartory-data-cat-4) 0%, transparent);
+  --chartory-chart-primary: #e4572a;
+  --chartory-chart-primary-soft: #ee9363;
+  --chartory-chart-area-top: #e4572a47;
+  --chartory-chart-area-bottom: #e4572a00;
+}
+
+/* Chart colour: the `color` prop of every chart (cat-1…cat-4), set with the theme on the chart root */
+[data-chart-color="cat-1"] {
+  --chartory-chart-primary: var(--chartory-data-cat-1);
+  --chartory-chart-primary-soft: var(--chartory-data-cat-1-soft);
+  --chartory-chart-area-top: var(--chartory-data-cat-1-area-top);
+  --chartory-chart-area-bottom: var(--chartory-data-cat-1-area-bottom);
+  --chartory-data-primary: var(--chartory-chart-primary);
+  --chartory-data-primary-soft: var(--chartory-chart-primary-soft);
+  --chartory-data-area-top: var(--chartory-chart-area-top);
+  --chartory-data-area-bottom: var(--chartory-chart-area-bottom);
+  --data-primary: var(--chartory-data-primary);
+  --data-primary-soft: var(--chartory-data-primary-soft);
+  --data-area-top: var(--chartory-data-area-top);
+  --data-area-bottom: var(--chartory-data-area-bottom);
+}
+
+[data-chart-color="cat-2"] {
+  --chartory-chart-primary: var(--chartory-data-cat-2);
+  --chartory-chart-primary-soft: var(--chartory-data-cat-2-soft);
+  --chartory-chart-area-top: var(--chartory-data-cat-2-area-top);
+  --chartory-chart-area-bottom: var(--chartory-data-cat-2-area-bottom);
+  --chartory-data-primary: var(--chartory-chart-primary);
+  --chartory-data-primary-soft: var(--chartory-chart-primary-soft);
+  --chartory-data-area-top: var(--chartory-chart-area-top);
+  --chartory-data-area-bottom: var(--chartory-chart-area-bottom);
+  --data-primary: var(--chartory-data-primary);
+  --data-primary-soft: var(--chartory-data-primary-soft);
+  --data-area-top: var(--chartory-data-area-top);
+  --data-area-bottom: var(--chartory-data-area-bottom);
+}
+
+[data-chart-color="cat-3"] {
+  --chartory-chart-primary: var(--chartory-data-cat-3);
+  --chartory-chart-primary-soft: var(--chartory-data-cat-3-soft);
+  --chartory-chart-area-top: var(--chartory-data-cat-3-area-top);
+  --chartory-chart-area-bottom: var(--chartory-data-cat-3-area-bottom);
+  --chartory-data-primary: var(--chartory-chart-primary);
+  --chartory-data-primary-soft: var(--chartory-chart-primary-soft);
+  --chartory-data-area-top: var(--chartory-chart-area-top);
+  --chartory-data-area-bottom: var(--chartory-chart-area-bottom);
+  --data-primary: var(--chartory-data-primary);
+  --data-primary-soft: var(--chartory-data-primary-soft);
+  --data-area-top: var(--chartory-data-area-top);
+  --data-area-bottom: var(--chartory-data-area-bottom);
+}
+
+[data-chart-color="cat-4"] {
+  --chartory-chart-primary: var(--chartory-data-cat-4);
+  --chartory-chart-primary-soft: var(--chartory-data-cat-4-soft);
+  --chartory-chart-area-top: var(--chartory-data-cat-4-area-top);
+  --chartory-chart-area-bottom: var(--chartory-data-cat-4-area-bottom);
+  --chartory-data-primary: var(--chartory-chart-primary);
+  --chartory-data-primary-soft: var(--chartory-chart-primary-soft);
+  --chartory-data-area-top: var(--chartory-chart-area-top);
+  --chartory-data-area-bottom: var(--chartory-chart-area-bottom);
+  --data-primary: var(--chartory-data-primary);
+  --data-primary-soft: var(--chartory-data-primary-soft);
+  --data-area-top: var(--chartory-data-area-top);
+  --data-area-bottom: var(--chartory-data-area-bottom);
+}
+
+/* Chart motion (brief §4): data moves, chrome does not. Durations and easing are tokens (themeable). The entrance
+   plays once when a chart scrolls into view (src/charts/chart-motion.tsx adds .cm-play); before that an armed chart
+   (.cm-root inside html.js) keeps its data marks hidden. Without JavaScript, or with reduced motion, the final frame
+   shows at once. */
+:root {
+  --chartory-motion-entrance: 700ms;
+  --chartory-motion-stagger: 45ms;
+  --chartory-motion-hover: 150ms;
+  --chartory-motion-update: 500ms;
+  --chartory-ease-settle: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cm {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+.cm-grow {
+  transform-origin: 50% 100%;
+}
+.cm-grow.cm-top {
+  transform-origin: 50% 0%;
+}
+.cm-grow.cm-left {
+  transform-origin: 0% 50%;
+}
+.cm-grow.cm-right {
+  transform-origin: 100% 50%;
+}
+
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  .cm-root:not(.cm-play) .cm {
+    opacity: 0;
+  }
+  .cm-play .cm {
+    --cm-delay: calc(var(--o, 0) * var(--chartory-motion-stagger));
+    animation: var(--chartory-motion-entrance) var(--chartory-ease-settle) var(--cm-delay) both;
+  }
+  .cm-play .cm-after {
+    --cm-delay: calc(var(--chartory-motion-entrance) * 0.45 + var(--o, 0) * var(--chartory-motion-stagger));
+  }
+  .cm-play .cm-grow {
+    animation-name: cm-grow;
+  }
+  .cm-play .cm-grow.cm-left,
+  .cm-play .cm-grow.cm-right {
+    animation-name: cm-grow-x;
+  }
+  .cm-play .cm-draw,
+  .cm-play .cm-sweep {
+    stroke-dasharray: 1;
+    animation-name: cm-draw;
+  }
+  .cm-play .cm-reveal {
+    animation-name: cm-reveal;
+  }
+  .cm-play .cm-pop {
+    animation-name: cm-pop;
+  }
+  .cm-play .cm-fade {
+    animation-name: cm-fade;
+  }
+}
+@keyframes cm-grow {
+  from { transform: scaleY(0); }
+}
+@keyframes cm-grow-x {
+  from { transform: scaleX(0); }
+}
+@keyframes cm-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes cm-reveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+@keyframes cm-pop {
+  from { transform: scale(0); }
+}
+@keyframes cm-fade {
+  from { opacity: 0; }
+}
+
+/* Hover: the datum under the pointer stays, the rest steps back. */
+.cm {
+  transition: opacity var(--chartory-motion-hover) ease-out;
+}
+.cm-hl .cm:not(.cm-on) {
+  opacity: 0.35;
+}
+
+/* Loading skeleton: a slow pulse, staggered left to right by nothing (the blocks breathe together); none with
+   reduced motion. */
+@keyframes cm-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.cm-pulse { animation: cm-pulse 1.4s var(--chartory-ease-settle, ease-in-out) infinite; }
+@media (prefers-reduced-motion: reduce) { .cm-pulse { animation: none; } }
+
+/* Interactive Hearth widget: click targets over the server-rendered SVG show the focus ring only for the keyboard. */
+.hearth-hit:focus-visible { outline: 2px solid var(--chartory-accent-default); outline-offset: 0; }
+
+/* Legend switches (interactive Hearth widget, the kit's legend-item states): a series off steps far back (its marks stay
+   where they are, so stacks and axes keep their shape) and stays back under the hover highlight; its entry steps back
+   to 0.6 with a hollow swatch; hover shows the chip ground and the strong label. */
+.cs { transition: opacity var(--chartory-motion-hover, 150ms) ease-out; }
+.cs.cs-hidden { opacity: 0.12 !important; }
+.lg-bg, .lg-ring { display: none; }
+.lg-bg.lg-hot { display: inline; }
+.lg-text.lg-hot { fill: var(--chartory-text-strong) !important; }
+.lg-text.lg-hot.lg-sig { fill: var(--signal-text-primary) !important; }
+.lg-off:not(.lg-bg) { opacity: 0.6; }
+.lg-dot.lg-off { display: none; }
+.lg-ring.lg-off { display: inline; }
+@media (prefers-reduced-motion: reduce) { .cs { transition: none; } }
+
+/* Tabs and chips blocks (interactive Hearth widget): every option carries the kit's selected look (sel-on) and its
+   plain look (sel-off); the selected option's marks have is-sel. */
+.sel-on:not(.is-sel), .sel-off.is-sel { display: none; }
+
+/* Dashboard (src/widgets/dashboard/dashboard.tsx; Figma Website · Blocks and dashboards 33:523326). Text sizes are the
+   Chartory type tokens with their desktop values as fallbacks (chartory.css carries colours, not the type scale). */
+.cd-dashboard { display: flex; flex-direction: column; border-top: 1px solid var(--chartory-stroke-divider); border-bottom: 1px solid var(--chartory-stroke-divider); background: var(--chartory-bg-canvas); color: var(--chartory-text-primary); font-family: var(--chartory-font-sans); }
+.cd-dashboard h2, .cd-dashboard h3, .cd-dashboard p, .cd-dashboard ul { margin: 0; padding: 0; }
+.cd-bar { display: flex; align-items: center; gap: 12px; padding: 20px 32px; border-bottom: 1px solid var(--chartory-stroke-divider); }
+.cd-bar-title { display: flex; flex: 1; flex-direction: column; gap: 2px; min-width: 0; }
+.cd-bar-title h2 { font-size: var(--chartory-label-lg-size, 16px); line-height: var(--chartory-label-lg-line-height, 24px); font-weight: 500; }
+.cd-bar-title p { font-size: var(--chartory-body-xs-size, 12px); line-height: var(--chartory-body-xs-line-height, 16px); color: var(--chartory-text-tertiary); }
+.cd-bar-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.cd-chip { display: inline-flex; align-items: center; height: 32px; padding: 0 10px; border: 1px solid var(--chartory-chip-stroke); border-radius: 6px; background: var(--chartory-chip-fill); color: var(--chartory-text-secondary); font-size: var(--chartory-label-sm-size, 13px); line-height: var(--chartory-label-sm-line-height, 18px); font-weight: 500; white-space: nowrap; }
+.cd-caption { display: flex; align-items: center; gap: 12px; padding: 16px 32px; }
+.cd-caption-label { font-size: var(--chartory-label-xs-size, 12px); line-height: var(--chartory-label-xs-line-height, 16px); font-weight: 500; color: var(--chartory-text-tertiary); }
+.cd-caption-title { font-size: var(--chartory-label-md-size, 14px); line-height: var(--chartory-label-md-line-height, 20px); font-weight: 500; }
+.cd-caption-text { flex: 1; font-size: var(--chartory-body-sm-size, 13px); line-height: var(--chartory-body-sm-line-height, 18px); color: var(--chartory-text-secondary); }
+.cd-kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); list-style: none; border-top: 1px solid var(--chartory-stroke-divider); border-bottom: 1px solid var(--chartory-stroke-divider); background: var(--chartory-surface-panel); }
+.cd-kpis li { display: flex; min-width: 0; flex-direction: column; gap: 8px; padding: 28px 32px; }
+.cd-kpis li + li { border-left: 1px solid var(--chartory-stroke-divider); }
+.cd-kpi-label { font-size: var(--chartory-label-xs-size, 12px); line-height: var(--chartory-label-xs-line-height, 16px); font-weight: 500; color: var(--chartory-text-tertiary); }
+.cd-kpi-value { font-size: var(--chartory-numeric-lg-size, 32px); line-height: var(--chartory-numeric-lg-line-height, 40px); letter-spacing: var(--chartory-numeric-lg-tracking, -0.02em); font-weight: 500; font-variant-numeric: tabular-nums; }
+.cd-kpi-note { font-size: var(--chartory-body-sm-size, 13px); line-height: var(--chartory-body-sm-line-height, 18px); color: var(--chartory-text-secondary); }
+.cd-block-widgets { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: 48px; padding: 48px 32px; border-top: 1px solid var(--chartory-stroke-divider); background: var(--chartory-surface-panel); }
+.cd-block:not(:last-child) .cd-block-widgets { border-bottom: 1px solid var(--chartory-stroke-divider); }
+.cd-widget { max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+@media (max-width: 1023px) {
+  .cd-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cd-kpis li:nth-child(odd) { border-left: 0; }
+  .cd-kpis li:nth-child(n + 3) { border-top: 1px solid var(--chartory-stroke-divider); }
+  .cd-block-widgets { gap: 40px; padding: 40px 16px; }
+}
+@media (max-width: 767px) {
+  .cd-bar { flex-direction: column; align-items: stretch; padding: 16px; }
+  .cd-caption { flex-direction: column; align-items: stretch; gap: 4px; padding: 16px; }
+  .cd-kpis { grid-template-columns: minmax(0, 1fr); }
+  .cd-kpis li { padding: 20px 16px; }
+  .cd-kpis li + li { border-left: 0; border-top: 1px solid var(--chartory-stroke-divider); }
+  .cd-block-widgets { gap: 24px; padding: 24px 16px; }
+}
