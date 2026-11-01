@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.contextRuler (Figma ember-chart-5.js, type 81): one row per request, the context window as a chip track and the
 // prompt kinds stacked left to right in it (1 px seams), tick lines with K labels on top, a dashed compaction line.
 import { box, dash, place, type Kit } from "../core/kit";

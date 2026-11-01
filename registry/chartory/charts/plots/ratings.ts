@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.ratings (Figma ember-chart-5.js, type 93): five stars filled to the average (the partial star clipped by a frame),
 // the average in Display/M with a caps caption, and one bar per star level (track, count bar, count on the right).
 import { box, place, star, type Kit } from "../core/kit";

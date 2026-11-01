@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 088 Drive time zones · sample data (Figma chart/088-isochrone-depot).
 import type { IsochroneData } from "../../plots/isochrone";
 

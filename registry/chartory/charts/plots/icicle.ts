@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.icicle (Figma ember-chart-4.js): three rows (root, teams, projects) of boxes sized by value; a box of 56 px and
 // more carries its name (Body/S) when it fits, and its value (caps) when the box is 40 px tall and the value fits.
 import { cell, overflows, type Kit } from "../core/kit";

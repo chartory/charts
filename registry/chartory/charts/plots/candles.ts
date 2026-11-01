@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.candles (Figma ember-chart.js): candlesticks over a y grid (wick 1 px, body radius 1, coloured by direction),
 // a volume strip under them at 40 %, and a dashed 7-period moving average of the close.
 import type { Kit } from "../core/kit";

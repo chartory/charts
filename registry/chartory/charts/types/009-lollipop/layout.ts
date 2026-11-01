@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 009 Lollipop (Figma chart/009-lollipop): C.lollipop on the regional deposits sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { lollipop } from "../../plots/lollipop";

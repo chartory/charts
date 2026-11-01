@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 002 Grouped bars (Figma chart/002-grouped-bars): C.grouped on new paid accounts by plan.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { grouped } from "../../plots/grouped";

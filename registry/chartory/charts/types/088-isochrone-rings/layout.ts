@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 088 Isochrone rings (Figma chart/088-isochrone-depot): C.isochrone, today's stops round Depot North.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { isochrone } from "../../plots/isochrone";

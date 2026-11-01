@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.orbits2 (Figma ember-chart-2.js, type 41): tiers as dotted orbits (dashed guide, n dots evenly from 12 o'clock;
 // the active share solid, the rest at 22 %), an active-share ring in the middle with its value, and the side list
 // (C.sideList) with each tier's count and active share.

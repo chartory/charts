@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.parallel (Figma ember-chart-3.js): parallel coordinates; one vertical axis per measure (0–100), a straight
 // polyline per row at 60 % (1.5 px), the focus row drawn last at 3 px with ringed points; axis names under the axes
 // (first left-aligned, last right-aligned).

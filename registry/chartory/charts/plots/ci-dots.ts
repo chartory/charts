@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.ciDots (Figma ember-chart-3.js): dot plot with confidence intervals; a row per item (name at the left), the
 // interval as a 2 px bar with end caps and the estimate as a ringed dot, coloured by where the interval sits against
 // the dashed target (green above, red below, amber across); vertical grid with ticks under the rows.

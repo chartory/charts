@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 066 Dumbbell (Figma chart/066, "Price position"): C.dumbbell, our price against the rival's on 6 products.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { dumbbell } from "../../plots/dumbbell";

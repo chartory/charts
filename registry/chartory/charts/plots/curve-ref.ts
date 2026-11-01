@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.curveRef (Figma ember-chart-4.js, types 60 gains curve and 77 Lorenz curve): a curve against the dashed
 // diagonal reference over a 0–1 y grid, the gap between them shaded, a marked point with its guide and chip.
 // gains: 1 − (1 − t)^k in data/primary, chip right and below the mark; lorenz: t^k in status/warning, chip left and above.

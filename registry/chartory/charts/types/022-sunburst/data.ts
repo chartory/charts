@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 022 Sunburst · sample data (Figma chart/022, AI: token spend by team › model, October month to date, in $100s).
 import type { SunburstData } from "../../plots/sunburst";
 

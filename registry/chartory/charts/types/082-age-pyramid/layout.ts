@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 082 Age pyramid (Figma chart/082-pyramid-customers): C.pyramid, new customers left, returning right.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { pyramid } from "../../plots/pyramid";

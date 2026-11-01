@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 046 Bar and line combo · sample data (Figma chart/046, SaaS: new MRR in $K and monthly churn rate in %, 2026).
 import type { ComboData } from "../../plots/combo";
 

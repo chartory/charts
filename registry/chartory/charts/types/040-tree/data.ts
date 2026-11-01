@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 040 Tree · sample data (Figma chart/040, project management: release v4.2 → epics → tasks with their status).
 import type { Tree2Data } from "../../plots/tree2";
 

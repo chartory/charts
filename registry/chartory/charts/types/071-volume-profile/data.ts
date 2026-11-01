@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 071 Volume profile · sample data (Figma chart/071, SOL / USD over 48 hours: hourly price and traded volume per price level, 14 levels from 144 to 158).
 import type { VolumeProfileData } from "../../plots/volume-profile";
 

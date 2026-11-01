@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 050 Dot plot with intervals · sample data (Figma chart/050, logistics: on-time rate by carrier, 95 % confidence, SLA 95 %).
 import type { CiDotsData } from "../../plots/ci-dots";
 

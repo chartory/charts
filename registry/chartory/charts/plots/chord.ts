@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.chord (Figma ember-chart-3.js): nodes as arcs around a ring (12 o'clock, clockwise, 0.06 rad gaps), sized by the
 // flow in and out; ribbons between the arcs through the centre in the source colour at 38 %; the side list with each
 // node's net flow. The radius leaves the list the width it needs to keep every row on one line (C.listNeed).

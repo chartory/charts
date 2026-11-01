@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 018 Semi donut · sample data (Figma chart/018, e-commerce: orders by channel).
 import type { SemiDonutData } from "../../plots/semi-donut";
 

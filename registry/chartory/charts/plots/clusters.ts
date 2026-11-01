@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.clusters (Figma ember-chart-5.js, type 91): topic clusters as soft hulls (an ellipse at 10 % with a dashed outline)
 // around seeded Gaussian-ish point clouds (Park–Miller generator, sum of three uniforms), a caps name above each hull.
 import { paint, place, type Kit } from "../core/kit";

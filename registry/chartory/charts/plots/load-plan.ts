@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.loadPlan (Figma ember-chart-4.js): one trailer per truck (outline, cab), pallets in columns scaled to the
 // trailer (one tall pallet or two stacked), the truck's caps label above and its load factor on the right (amber
 // under 85 %).

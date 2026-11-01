@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 053 Order book depth (Figma chart/053, "Order book depth"): C.depth, cumulative BTC / USDT bids and asks around the mid.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { depth } from "../../plots/depth";

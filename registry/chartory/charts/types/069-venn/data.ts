@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 069 Venn · sample data (Figma chart/069, accounts using dashboards, alerts and the API; region counts and set totals).
 import type { VennData } from "../../plots/venn";
 

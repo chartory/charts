@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.volumeProfile (Figma ember-chart-4.js): price line over a y grid, volume per price level as bars from the right
 // edge (point of control primary, value area primary-soft, the rest track), a dashed line and chip at the POC.
 import { X, chip, dash, place, type Kit } from "../core/kit";

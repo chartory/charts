@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.bullet (Figma ember-chart.js): bullet rows: a label with its unit, three qualitative bands, the actual bar, a
 // target tick, and the value with its target on the right.
 import type { Kit } from "../core/kit";

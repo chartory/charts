@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 075 Reconciliation (Figma chart/075-recon-matching): C.recon on a day of bank feed and ledger entries.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { recon } from "../../plots/recon";

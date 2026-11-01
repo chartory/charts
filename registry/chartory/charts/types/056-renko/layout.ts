@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 056 Renko (Figma chart/056, "ETH price bricks"): C.renko, $50 bricks from $2,400, Sep 10 to Oct 9.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { renko } from "../../plots/renko";

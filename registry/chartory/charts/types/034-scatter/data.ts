@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 034 Scatter · sample data (Figma chart/034, crypto: 30-day return against volatility per token; bubble size from the kit sample).
 import type { ScatterData } from "../../plots/scatter";
 

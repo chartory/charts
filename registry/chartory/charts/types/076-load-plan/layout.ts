@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 076 Load plan (Figma chart/076): C.loadPlan on three outbound trucks; the legend names the goods.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { loadPlan } from "../../plots/load-plan";

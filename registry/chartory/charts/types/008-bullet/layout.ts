@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 008 Bullet (Figma chart/008-bullet): C.bullet on the Q3 goals sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { bullet } from "../../plots/bullet";

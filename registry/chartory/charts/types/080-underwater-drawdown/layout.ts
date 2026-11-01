@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 080 Underwater drawdown (Figma chart/080-underwater-fund): C.underwater on the fund's drawdown series.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { underwater } from "../../plots/underwater";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // A small Figma-like node tree for chart layout: frames (absolute or auto layout), rectangles, ellipses, vectors and
 // texts, with the auto-layout rules the kit uses (direction, gap, padding, wrap, main / cross alignment, hug / fixed /
 // fill sizing). The Figma builders (dashboard/chartsidea/tools/ember-chart*.js) port onto it line by line; the tree

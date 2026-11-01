@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.rateDots (Figma ember-chart-4.js): a dot plot of projections per column over a y grid; equal values sit side by
 // side (9 px apart, centred), and a short strong bar marks each column's median.
 import type { Kit } from "../core/kit";

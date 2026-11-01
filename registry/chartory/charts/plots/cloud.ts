@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.cloud (Figma ember-chart-4.js): terms in a centred wrapping row, sized by weight in five tiers (Body/S → Display/M),
 // coloured by tone (negative / positive, else strong from 0.45 up, body below). Every term stays at every size
 // (the person, 2026-10-12): when the cloud is taller than the plot, the gaps tighten first, then the top tiers step

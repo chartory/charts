@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.stripes (Figma ember-chart-5.js, type 90): one full-height stripe per day, data/primary when the rate is ≥ 0,
 // cat-2 below, opacity by |rate| / max; the price as a smooth line over the stripes; date labels under them.
 import { box, type Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.scatter (Figma ember-chart.js): bubble scatter over a y grid; bubbles sized by √(size / smax) × 44 (at least 8),
 // drawn largest first at 85 % with a 1 px ground ring outside; a label inside bubbles of 28 px and more.
 import { type Kit, paint } from "../core/kit";

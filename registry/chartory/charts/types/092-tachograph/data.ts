@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 092 Tachograph · sample data (Figma chart/092, logistics: today's driver activity from the tachograph cards).
 import type { TachoData } from "../../plots/tacho";
 

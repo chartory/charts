@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 094 Radial lollipop (Figma chart/094-radial-hashrate): C.radialLolli2 on the hashrate sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { radialLollipop } from "../../plots/radial-lollipop";

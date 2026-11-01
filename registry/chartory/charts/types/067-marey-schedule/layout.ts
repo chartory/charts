@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 067 Marey schedule (Figma chart/067, "Van schedule"): C.marey, 4 vans on the route, Van 19 against its plan.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { marey } from "../../plots/marey";

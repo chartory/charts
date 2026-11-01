@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 086 API calls by hour · sample data (Figma chart/086-punch-card-api).
 import type { PunchCardData } from "../../plots/punch-card";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.multiLine (Figma ember-chart-2.js): several smooth lines over a y grid, optionally with a translucent area under
 // each (overlapping areas), x labels at chosen points (first starts, last ends, others centre).
 import { type Kit, X } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 014 Streamgraph (Figma chart/014-streamgraph): C.stream2 on shipments by mode; the layers carry their own labels
 // (no legend).
 import type { ChartDef, TooltipSpec } from "../../core/shell";

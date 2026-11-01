@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 066 Dumbbell · sample data (Figma chart/066, our price (a) against the rival's (b) per product, $).
 import type { DumbbellData } from "../../plots/dumbbell";
 

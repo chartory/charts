@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 065 Ring grid · sample data (Figma chart/065, same-day dispatch rate per site, %; good from 97, warn from 92).
 import type { RingGridData } from "../../plots/ring-grid";
 

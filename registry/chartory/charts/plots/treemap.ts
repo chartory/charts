@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.treemap (Figma ember-chart.js): grouped treemap; groups squarified by total, items squarified inside their group,
 // shaded by rank (1, 0.82, 0.68 …). C.tile is ported here: a 1 px inset tile with radius 3, a label when it fits and
 // a value under it when the tile is tall enough.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 030 Treemap (Figma chart/030): C.treemap on the category mix sample.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { treemap } from "../../plots/treemap";

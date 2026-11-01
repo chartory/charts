@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 089 Allocation drift · sample data (Figma chart/089-drift-rebalance).
 import type { DriftArrowsData } from "../../plots/drift-arrows";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 100 Split calendar · sample data (Figma chart/100, fintech: daily cash in / out in $K, September; day 1 is a Tuesday).
 import type { SplitCalData } from "../../plots/split-cal";
 

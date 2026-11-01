@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 020 Progress ring (Figma chart/020, "Token budget"): C.pie as a thin ring on a track, the share in the centre.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { pie } from "../../plots/pie";

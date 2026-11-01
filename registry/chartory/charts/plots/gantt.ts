@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.gantt (Figma ember-chart.js): rows of jobs on an hour axis; vertical grid at the ticks (tick labels near the now
 // line are dropped), row names on the left, a label inside each job that fits it, a now line with a NOW chip.
 import type { Kit } from "../core/kit";

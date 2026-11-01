@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.quadrant (Figma ember-chart-4.js): points over a y grid split by two dividers into four named quadrants,
 // coloured by quadrant, sized by r; a shown label takes the first free spot (right, left, below, above) that stays
 // inside and clear of the quadrant names.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 015 · sample data (Figma chart/015-forecast-band, fintech: cash balance in $M, actual to October, forecast with a p10–p90 band to April; band = mid ± 0.02 to today, then +0.07 per month).
 import type { BandData } from "../../plots/band";
 

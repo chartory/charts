@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 079 Milestone track · sample data (Figma chart/079-milestones-onboarding, SaaS: share of sign-ups reaching each step).
 import type { MilestonesData } from "../../plots/milestones";
 

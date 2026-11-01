@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 064 Arc diagram (Figma chart/064, "Wallet cluster transfers"): C.arcDiagram, 7 clusters and 10 transfer links.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { arcDiagram } from "../../plots/arc-diagram";

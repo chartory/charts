@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.diverge (Figma ember-chart-2.js): diverging columns around a zero line in the middle of the plot; inflow up
 // (data/primary), outflow down (data/cat-2), y ticks on their own grid lines (zero drawn in text/action).
 import type { Kit } from "../core/kit";

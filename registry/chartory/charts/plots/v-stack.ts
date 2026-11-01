@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.vStack (Figma ember-chart.js): stacked vertical bars over a y grid; the y-axis width (20–30) is the first that
 // gives an integer column fit near the gap ratio; stacks bottom → top, the top segment rounded; x labels centred on
 // a three-column cell around the labelled bar.

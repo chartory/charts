@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 059 Shelf planogram (Figma chart/059, "Shelf availability"): C.shelf, three dairy shelves, stock per facing.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { shelf } from "../../plots/shelf";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 024 Heatmap · sample data (Figma chart/024, fintech: card transactions by weekday and 2-hour slot, this week;
 // values 0–1 of the peak, Friday 18:00; the seeded profile from the Figma definition, expanded).
 import type { HeatData } from "../../plots/heat";

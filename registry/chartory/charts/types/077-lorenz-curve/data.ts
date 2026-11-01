@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 077 Lorenz curve · sample data (Figma chart/077, crypto: stake concentration across validators, curve t^3.4).
 import type { CurveRefData } from "../../plots/curve-ref";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 082 Customers by age · sample data (Figma chart/082-pyramid-customers).
 import type { PyramidData } from "../../plots/pyramid";
 

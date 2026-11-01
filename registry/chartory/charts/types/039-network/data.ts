@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 039 Network · sample data (Figma chart/039, AI: tool calls by an agent this week, in thousands).
 import type { Network2Data } from "../../plots/network2";
 

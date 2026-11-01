@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 035 Packed bubbles · sample data (Figma chart/035, crypto: 24 h spot volume in $B per asset and its 24 h change in %).
 import type { BubblesData } from "../../plots/bubbles";
 

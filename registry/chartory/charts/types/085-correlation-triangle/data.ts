@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 085 Asset correlation · sample data (Figma chart/085-correlation-crypto).
 import type { CorrTriData } from "../../plots/corr-tri";
 

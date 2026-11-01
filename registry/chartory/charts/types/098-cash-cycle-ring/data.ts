@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 098 Cash cycle ring · sample data (Figma chart/098, fintech: working capital days, Q3 2026).
 import type { CycleRingData } from "../../plots/cycle-ring";
 

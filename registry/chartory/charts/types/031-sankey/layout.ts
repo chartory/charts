@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 031 Sankey (Figma chart/031): C.sankey; no legend (sources and outcomes are labelled).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { sankey } from "../../plots/sankey";

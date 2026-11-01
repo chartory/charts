@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 055 Response length by model · sample data (Figma chart/055, from the Figma definition, seeded values expanded).
 import type { RidgelineData } from "../../plots/ridgeline";
 

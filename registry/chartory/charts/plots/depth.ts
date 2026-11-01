@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.depth (Figma ember-chart-4.js, type 53): order book depth, cumulative bids (left) and asks (right) as stepped
 // areas from the mid price, a dashed mid line with its chip, price ticks below.
 import { chip, dash, type Kit } from "../core/kit";

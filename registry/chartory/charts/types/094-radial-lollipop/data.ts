@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 094 Radial lollipop · sample data (Figma chart/094-radial-hashrate, crypto: network hashrate in EH/s, Nov → Oct).
 import type { RadialLollipopData } from "../../plots/radial-lollipop";
 

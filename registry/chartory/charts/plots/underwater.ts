@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.underwater (Figma ember-chart-4.js): drawdown from the running peak below a 0 line: a danger area at 0.2 under
 // a 1.5 px line, the deepest point ringed with a danger chip beside it, x labels at chosen points.
 import { chip, place, point, X, type Kit } from "../core/kit";

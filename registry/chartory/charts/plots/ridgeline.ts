@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.ridgeline (Figma ember-chart-4.js, type 55): one smoothed density per row (sum of weighted Gaussians, scaled to
 // its own peak), each masked by the ground so the rows overlap cleanly, with the name on the left.
 import { place, type Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 087 Bowtie (Figma chart/087-bowtie-revenue): C.bowtie, acquisition stages to the won knot, then growth stages.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { bowtie } from "../../plots/bowtie";

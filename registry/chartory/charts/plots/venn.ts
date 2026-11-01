@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.venn (Figma ember-chart-4.js): three overlapping set circles (fill at 28 % + a 1.5 px outline), a count centred
 // in each of the seven regions, and the set list beside it (C.sideList); compact (× 0.84) when the list is narrow.
 import { ctr, paint, place, type Kit, type Row } from "../core/kit";

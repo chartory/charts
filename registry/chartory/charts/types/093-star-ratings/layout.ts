@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 093 Star ratings (Figma chart/093): C.ratings; no legend (the bars are labelled by star level).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { ratings } from "../../plots/ratings";

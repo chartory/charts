@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.radialLolli2 (Figma ember-chart-5.js, type 94 v2): a year of values as stems from an inner ring, value guide
 // rings, month letters outside, the latest month hot (data/primary, thicker, ringed head), a centred caption and the
 // side list (C.sideList) with its narrow-size rules. The radius keeps 120 px for the list on narrow plots.

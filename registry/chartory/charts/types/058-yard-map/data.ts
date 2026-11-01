@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 058 Yard occupancy · sample data (Figma chart/058, from the Figma definition, seeded values expanded).
 import type { YardData } from "../../plots/yard";
 

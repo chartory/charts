@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 051 Spiral year (Figma chart/051, "Weekly active workspaces"): C.spiral, 52 weeks on 2.5 turns, the busiest ringed.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { spiral } from "../../plots/spiral";

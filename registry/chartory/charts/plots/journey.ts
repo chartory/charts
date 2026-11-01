@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.journey (Figma ember-chart-5.js, type 96): a shipment timeline. Phase bars up to now, a dashed ETA line after it,
 // events as dots on stems (filled when passed, ringed when ahead) with a name and date above or below; labels that
 // collide in a row are dropped (the row's last event wins), a NOW pill, date ticks under the axis.

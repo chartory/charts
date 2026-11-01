@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.horizon (Figma ember-chart-4.js, type 54): one row per series, values folded into three bands of `band` each
 // (30 / 60 / 100 %), above zero in data/primary and below in data/cat-2, with the pair name on the left.
 import { place, X, type Kit } from "../core/kit";

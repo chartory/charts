@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 068 Icicle (Figma chart/068, "Inference spend"): C.icicle, spend by team and project.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { icicle } from "../../plots/icicle";

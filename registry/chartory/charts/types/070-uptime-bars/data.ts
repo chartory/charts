@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 070 Uptime bars · sample data (Figma chart/070, daily state of 3 services over the last 63 days, oldest first).
 import type { UptimeData } from "../../plots/uptime";
 

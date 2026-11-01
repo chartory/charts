@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 029 Tile map (Figma chart/029): C.tileMap; no legend (the side list names the top countries). Radius-bound: XS
 // legend=off keeps the legend-on plot height (flatXs).
 import type { ChartDef, TooltipSpec } from "../../core/shell";

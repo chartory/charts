@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.flame (Figma ember-chart-4.js): a flame graph of spans by depth on a time axis; the root span at 0.55 opacity,
 // a label inside every span of 40 px and more that fits it, tick marks and labels under the deepest row.
 import { place, type Kit } from "../core/kit";

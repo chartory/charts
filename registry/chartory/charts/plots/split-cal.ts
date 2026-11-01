@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.splitCal (Figma ember-chart-5.js, type 100): a month calendar (Monday first) whose day cells split on the diagonal:
 // cash in as the upper-left triangle (status/success), cash out as the lower-right (status/danger), each at
 // 0.2 + 0.8 × value / max; weekday letters on top, the side list (C.sideList) beside it.

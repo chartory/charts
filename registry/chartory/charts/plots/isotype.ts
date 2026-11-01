@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.isotype (Figma ember-chart-5.js, type 97): one row of parcel icons per category, one icon per unit (the last one
 // cut to its share), a tape stripe on whole parcels when they are 10 px or more, the name left and the total right.
 import { box, place, type Kit } from "../core/kit";

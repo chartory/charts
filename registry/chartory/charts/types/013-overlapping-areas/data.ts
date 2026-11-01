@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 013 · sample data (Figma chart/013-overlapping-areas, crypto: daily spot volume per venue in $M, Sep 10 → Oct 9; the seeded walk the Figma builder generated).
 import type { MultiLineData } from "../../plots/multi-line";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 083 Deal pipeline (Figma chart/083-pipeline-deals): C.pipeline, open deals per stage coloured by age.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { pipeline } from "../../plots/pipeline";

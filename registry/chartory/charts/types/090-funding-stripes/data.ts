@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 090 Funding rate · sample data (Figma chart/090-stripes-funding).
 import type { StripesData } from "../../plots/stripes";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 011 Area (Figma chart/011-area): C.line with a gradient area and an end point; no legend (one series).
 import type { ChartDef } from "../../core/shell";
 import { line } from "../../plots/line";

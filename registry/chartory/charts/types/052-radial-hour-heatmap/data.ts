@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 052 Deliveries by hour · sample data (Figma chart/052, from the Figma definition, seeded values expanded).
 import type { RadialHeatData } from "../../plots/radial-heat";
 

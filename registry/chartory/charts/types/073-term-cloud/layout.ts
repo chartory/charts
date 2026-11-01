@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 073 Term cloud (Figma chart/073-term-cloud-support): C.cloud; the legend names the three tones.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { cloud } from "../../plots/cloud";

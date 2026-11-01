@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 054 FX volatility · sample data (Figma chart/054, from the Figma definition, seeded values expanded).
 import type { HorizonData } from "../../plots/horizon";
 

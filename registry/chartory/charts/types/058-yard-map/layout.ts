@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 058 Yard map (Figma chart/058, "Yard occupancy"): C.yard, 12 dock doors and 40 trailer slots by state.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { yard } from "../../plots/yard";

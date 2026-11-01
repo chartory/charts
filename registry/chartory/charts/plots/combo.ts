@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.combo (Figma ember-chart-3.js): columns on the left axis, a smooth line with ringed points on a second axis whose
 // tick labels sit at the right edge in the line's colour; x labels only at the chosen indexes.
 import type { Kit } from "../core/kit";

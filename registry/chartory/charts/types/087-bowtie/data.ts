@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 087 Revenue bowtie · sample data (Figma chart/087-bowtie-revenue).
 import type { BowtieData } from "../../plots/bowtie";
 

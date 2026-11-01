@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 076 Load plan · sample data (Figma chart/076, logistics: wave 3 outbound trucks, pallet columns [width, stack]).
 import type { LoadPlanData } from "../../plots/load-plan";
 

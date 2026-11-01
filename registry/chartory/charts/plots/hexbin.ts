@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.hexbin (Figma ember-chart.js): density small multiples. Per panel a staggered grid of hexagon bins (12 × 10 px
 // pitch, 11 × 12 px) whose density is a sum of Gaussian blobs in the page outline's unit space; bins under 0.12 are
 // skipped, the rest are data/primary at 0.15 + 0.85 × density; a dashed outline (the page), name and caps under it.

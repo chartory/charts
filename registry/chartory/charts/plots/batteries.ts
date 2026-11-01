@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.batteries (Figma ember-chart-4.js): a grid of battery cells (4 per row): outline, terminal, a charge bar in the
 // status colour (danger under 25 %, warning under 50 %), the name and a caps line (charge and range, or CHARGING;
 // short form in cells under 100 px).

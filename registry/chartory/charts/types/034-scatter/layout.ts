@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 034 Scatter (Figma chart/034): C.scatter on the 30-day return / volatility sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { scatter } from "../../plots/scatter";

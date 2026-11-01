@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 004 Diverging bars (Figma chart/004-diverging-bars): C.diverge on weekly cash in and out.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { diverge } from "../../plots/diverge";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 016 · sample data (Figma chart/016-vertical-profile, AI: needle recall in % by context length, two models).
 import type { ProfileData } from "../../plots/profile";
 

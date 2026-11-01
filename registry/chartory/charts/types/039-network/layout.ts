@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 039 Network (Figma chart/039): C.network2; no legend (every node is named beside it).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { network2 } from "../../plots/network2";

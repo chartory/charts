@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 078 Battery cells · sample data (Figma chart/078, logistics: charge and range of 8 delivery vans).
 import type { BatteriesData } from "../../plots/batteries";
 

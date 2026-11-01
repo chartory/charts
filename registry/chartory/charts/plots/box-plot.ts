@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.boxPlot (Figma ember-chart-3.js): one box per row on a y grid: whisker min → max with caps, the middle 50 % as a
 // tinted box with a data/primary edge, the median as a 2 px bar, outliers as dots; labels under the boxes.
 import { paint, type Kit } from "../core/kit";

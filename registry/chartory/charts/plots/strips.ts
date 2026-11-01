@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.strips (Figma ember-chart.js): one row per item; a rounded range track from its lowest to its highest point,
 // translucent dots sized per point, the low / high values either side; vertical grid lines at the ticks.
 import type { Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.slope (Figma ember-chart-3.js): two value axes (before / after), one line per row green up / red down with ringed
 // ends, the before value left of the left axis and the name + after value right of the right axis; each side of
 // labels is spread so no two touch (2026-10-12), within the plot base.

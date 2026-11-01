@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 050 Dot plot with intervals (Figma chart/050): C.ciDots on the carrier on-time sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { ciDots } from "../../plots/ci-dots";

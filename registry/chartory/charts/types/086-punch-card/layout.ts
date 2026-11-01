@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 086 Punch card (Figma chart/086-punch-card-api): C.punchCard, API calls per hour of the week.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { punchCard } from "../../plots/punch-card";

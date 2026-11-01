@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // One chart variant, built the way the Figma kit builds it (dashboard/chartsidea/tools/variants-build.js +
 // variants-xs.js): the card (padding, field ground, 0.5 px ring, radius/card), the plot at the size's height (taller
 // without a legend; shorter when the legend wraps), the legend below, then the axis-label pass (keep inside, thin

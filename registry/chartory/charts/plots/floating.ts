@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.floating (Figma ember-chart-2.js): floating range bars (low → high) over a y grid, a median tick across each bar,
 // bars whose low end misses the SLA in status/warning, and the SLA as a dashed line.
 import type { Kit } from "../core/kit";

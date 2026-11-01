@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 074 Flame graph (Figma chart/074-flame-agent-trace): C.flame on one agent run; the legend names the span kinds.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { flame } from "../../plots/flame";

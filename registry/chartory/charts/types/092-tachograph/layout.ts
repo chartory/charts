@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 092 Tachograph (Figma chart/092): C.tacho on today's driver cards, with the drive-time list beside the disc.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { tacho } from "../../plots/tacho";

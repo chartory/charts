@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 060 Churn model lift · sample data (Figma chart/060, from the Figma definition, seeded values expanded).
 import type { CurveRefData } from "../../plots/curve-ref";
 

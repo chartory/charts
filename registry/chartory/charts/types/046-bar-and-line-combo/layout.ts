@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 046 Bar and line combo (Figma chart/046): C.combo on the new MRR and churn sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { combo } from "../../plots/combo";

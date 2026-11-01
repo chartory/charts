@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 005 Floating range bars (Figma chart/005-floating-range-bars): C.floating on delivery windows per route.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { floating } from "../../plots/floating";

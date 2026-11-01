@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 037 Gantt (Figma chart/037): C.gantt on the dock schedule sample.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { gantt } from "../../plots/gantt";

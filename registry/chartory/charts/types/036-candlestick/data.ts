@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 036 Candlestick · sample data (Figma chart/036, crypto: SOL / USD 4 h candles, Sep 30 to Oct 9; seeded sample,
 // expanded from the Figma definition: [open, high, low, close, volume]).
 import type { CandlesData } from "../../plots/candles";

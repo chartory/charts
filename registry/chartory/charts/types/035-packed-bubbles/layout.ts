@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 035 Packed bubbles (Figma chart/035): C.bubbles on the 24 h volume sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { bubbles } from "../../plots/bubbles";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 084 Stock level · sample data (Figma chart/084-sawtooth-stock).
 import type { SawtoothData } from "../../plots/sawtooth";
 

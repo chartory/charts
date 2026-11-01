@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 100 Split calendar (Figma chart/100): C.splitCal on September's bank feed. Radius-bound (the side list sets the size).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { splitCal } from "../../plots/split-cal";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 090 Funding stripes (Figma chart/090-stripes-funding): C.stripes, 90 days of BTC perp funding with the price.
 import type { ChartDef } from "../../core/shell";
 import { stripes } from "../../plots/stripes";

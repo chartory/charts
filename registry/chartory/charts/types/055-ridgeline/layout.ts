@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 055 Ridgeline (Figma chart/055, "Response length by model"): C.ridgeline, one density per model, 0–2K tokens.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { ridgeline } from "../../plots/ridgeline";

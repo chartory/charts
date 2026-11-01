@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 041 Orbit · sample data (Figma chart/041, crypto: active wallets this week by holder tier).
 import type { Orbits2Data } from "../../plots/orbits2";
 

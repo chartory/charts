@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 031 Sankey · sample data (Figma chart/031, e-commerce: this week's sessions from source to outcome).
 import type { SankeyData } from "../../plots/sankey";
 

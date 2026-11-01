@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.hBars (Figma ember-chart.js): horizontal two-layer bars (total behind, value in front) with the row label inside
 // the bar, the value in a right column, and vertical grid lines with x ticks under the rows.
 import type { Kit } from "../core/kit";

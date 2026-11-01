@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 045 Bump (Figma chart/045-bump-volume-rank): C.bump; no legend (names at the line ends).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { bump } from "../../plots/bump";

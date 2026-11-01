@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 057 Route line (Figma chart/057, "Route progress"): C.metro, 12 stops on two rows, the van at Elm Park.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { metro } from "../../plots/metro";

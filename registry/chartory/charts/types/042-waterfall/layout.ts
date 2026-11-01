@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 042 Waterfall (Figma chart/042-waterfall-cash-bridge): C.waterfall on the cash bridge sample.
 import { waterfall } from "../../plots/waterfall";
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";

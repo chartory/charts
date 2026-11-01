@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.recon (Figma ember-chart-4.js): bank feed entries on the left, ledger entries on the right, a curve per match
 // (solid green, dashed amber when the amount differs); unmatched entries read danger. Narrow entries split name and
 // amount, then fall back to Label/S, then truncate the name (never the amount).

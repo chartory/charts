@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 072 Quadrant · sample data (Figma chart/072, product lines: x = sales growth %, y = gross margin %, r = revenue weight).
 import type { QuadrantData } from "../../plots/quadrant";
 

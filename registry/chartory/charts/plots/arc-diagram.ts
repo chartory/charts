@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.arcDiagram (Figma ember-chart-4.js): nodes on a baseline, sized by value (8 + 2 × 0–5 px), with a ground ring;
 // links arc above the line (height 0.62 × span), coloured by their source, width 1–6 px by value, at 65 %.
 import { X, paint, type Kit } from "../core/kit";

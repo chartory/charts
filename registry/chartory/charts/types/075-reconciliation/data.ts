@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 075 Reconciliation · sample data (Figma chart/075-recon-matching, fintech: bank feed vs ledger, Oct 9).
 import type { ReconData } from "../../plots/recon";
 

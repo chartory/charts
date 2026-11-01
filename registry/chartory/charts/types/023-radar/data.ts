@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 023 Radar · sample data (Figma chart/023, AI: model comparison, eval scores out of 100 on six axes).
 import type { RadarData } from "../../plots/radar";
 

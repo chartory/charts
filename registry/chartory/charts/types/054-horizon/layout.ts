@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 054 Horizon (Figma chart/054, "FX volatility"): C.horizon, four currency pairs over 60 days, 3 bands of 1 each.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { horizon } from "../../plots/horizon";

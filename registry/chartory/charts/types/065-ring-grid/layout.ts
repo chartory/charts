@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 065 Ring grid (Figma chart/065, "Same-day dispatch"): C.ringGrid, dispatch rate for 8 sites.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { ringGrid } from "../../plots/ring-grid";

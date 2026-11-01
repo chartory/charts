@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 077 Lorenz curve (Figma chart/077, "Stake concentration"): C.curveRef in lorenz mode against the equal-stake diagonal.
 import type { ChartDef } from "../../core/shell";
 import { curveRef } from "../../plots/curve-ref";

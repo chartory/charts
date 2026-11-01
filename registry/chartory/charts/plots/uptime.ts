@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.uptime (Figma ember-chart-4.js): one row of day bars per service (coloured by state), the service name above
 // on the left, its uptime on the right (warning when the row had an outage), the date range below.
 import { place, type Kit } from "../core/kit";

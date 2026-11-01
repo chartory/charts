@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.marimekko (Figma ember-chart-3.js): columns as wide as their share, cells as tall as their part within the
 // column (2 px gaps), the part's percent inside cells that fit it; column labels "NAME NN%" under the columns, the
 // name alone when that does not fit, nothing when neither does.

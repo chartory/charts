@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 023 Radar (Figma chart/023, "Model comparison"): C.radar, two models on six eval axes.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { radar } from "../../plots/radar";

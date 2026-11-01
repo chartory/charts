@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.tree2 (Figma ember-chart-2.js, type 40): a left-to-right dependency tree in columns (one per level, caps head on
 // top): each item a card (shell fill, chip stroke, radius/item 8) with a status bar, its name and, when the cards are
 // tall enough, a status row; parents centre on their children; curved links with a joint dot at the child.

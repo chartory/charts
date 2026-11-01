@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 060 Gains curve (Figma chart/060, "Churn model lift"): C.curveRef in gains mode against the random diagonal.
 import type { ChartDef } from "../../core/shell";
 import { curveRef } from "../../plots/curve-ref";

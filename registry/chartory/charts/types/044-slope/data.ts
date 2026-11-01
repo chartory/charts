@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 044 Slope · sample data (Figma chart/044, e-commerce: store conversion by channel, September → October).
 import type { SlopeData } from "../../plots/slope";
 

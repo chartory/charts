@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.tacho (Figma ember-chart-5.js, type 92): a 24 h tachograph disc. A face, one ring band per driver (track, then the
 // day's activity segments as arcs from midnight at 12 o'clock), hour labels every 6 h outside, a centred caption and
 // the side list (C.sideList).

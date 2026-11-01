@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 048 Chord (Figma chart/048): C.chord; no legend (the side list names every chain).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { chord } from "../../plots/chord";

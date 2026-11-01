@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 041 Orbit (Figma chart/041): C.orbits2; no legend (the side list names every tier). Radius-bound: XS legend=off
 // keeps the legend-on plot height (flatXs; the Figma XS plot is 150 high, centred in 212).
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";

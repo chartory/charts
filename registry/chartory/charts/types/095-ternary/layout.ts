@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 095 Ternary (Figma chart/095): C.ternary; no legend (every model is named beside its dot).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { ternary } from "../../plots/ternary";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 056 ETH price bricks · sample data (Figma chart/056, from the Figma definition, seeded values expanded).
 import type { RenkoData } from "../../plots/renko";
 

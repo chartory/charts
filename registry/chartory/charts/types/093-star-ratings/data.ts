@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 093 Star ratings · sample data (Figma chart/093, e-commerce: product reviews in the last 90 days).
 import type { RatingsData } from "../../plots/ratings";
 

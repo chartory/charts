@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 044 Slope (Figma chart/044): C.slope on the channel conversion sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { slope } from "../../plots/slope";

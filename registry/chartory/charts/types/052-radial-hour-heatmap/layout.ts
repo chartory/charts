@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 052 Radial hour heatmap (Figma chart/052, "Deliveries by hour"): C.radialHeat, 7 day rings (Monday inside) × 24 hours.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { radialHeat } from "../../plots/radial-heat";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 069 Venn (Figma chart/069, "Feature overlap"): C.venn, accounts by the features they use.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { venn } from "../../plots/venn";

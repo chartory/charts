@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 081 Context ruler (Figma chart/081-context-ruler): C.contextRuler on four support-agent requests in a 128K window.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { contextRuler } from "../../plots/context-ruler";

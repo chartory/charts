@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.likert (Figma ember-chart-4.js): diverging stacked bars around a neutral line (the neutral share split across
 // it), the question above each bar, the disagree total left of the bar and the agree total right of it.
 import { place, type Kit } from "../core/kit";

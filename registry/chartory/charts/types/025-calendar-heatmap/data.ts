@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 025 Calendar heatmap · sample data (Figma chart/025, dev tools: production deploys per day over 20 weeks, May → Sep;
 // one column per week, Mon → Sun; -1 = days still to come).
 import type { CalendarData } from "../../plots/calendar";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 002 · sample data (Figma chart/002-grouped-bars, SaaS: new paid accounts by plan, Jul → Dec 2026).
 import type { GroupedData } from "../../plots/grouped";
 

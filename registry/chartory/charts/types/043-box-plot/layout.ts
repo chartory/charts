@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 043 Box plot (Figma chart/043): C.boxPlot on the model latency sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { boxPlot } from "../../plots/box-plot";

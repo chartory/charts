@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.ringGrid (Figma ember-chart-4.js): small progress rings in a 4-column grid, coloured by threshold (good /
 // warn / below), the value centred, the name and a caps sub line below (lower-case Label/S when the caps overflow).
 import { arc, cell, ctr, overflows, place, type Kit } from "../core/kit";

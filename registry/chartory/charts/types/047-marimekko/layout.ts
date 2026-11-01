@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 047 Marimekko (Figma chart/047): C.marimekko on the region × category sales sample.
 import { buildVariant, type ChartDef, type Size, type TooltipSpec } from "../../core/shell";
 import { marimekko } from "../../plots/marimekko";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 091 Cluster map (Figma chart/091-clusters-tickets): C.clusters; no legend (each cluster is named on the map).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { clusters } from "../../plots/clusters";

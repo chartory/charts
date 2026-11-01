@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.driftArrows (Figma ember-chart-5.js, type 89): per asset a target tick, a dot at the current weight and an
 // arrow from it to the target (warning when overweight, info when under, body within 0.6 pt), the drift in points
 // at the right edge, vertical grid with % labels.

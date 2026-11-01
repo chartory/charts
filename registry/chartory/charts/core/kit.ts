@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // The Ember chart kit's drawing helpers (Figma: dashboard/chartsidea/tools/ember-chart*.js, the `C` object), ported
 // onto the node tree. Same names, same numbers, same rounding, so a type's plot ports line by line and lands on the
 // Figma geometry. Surface "deep" (the composer shell the kit is drawn on).

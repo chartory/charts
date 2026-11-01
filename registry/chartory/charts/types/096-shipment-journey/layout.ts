@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 096 Shipment journey (Figma chart/096): C.journey on shipment 4471, legend = the transport phases.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { journey } from "../../plots/journey";

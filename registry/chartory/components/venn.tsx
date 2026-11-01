@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // Venn (Chartory chart 069): sizes xs | s | m | l, laid out again from the data at each
 // size; collection "hearth" (default) or "signal" (with @chartory/signal, Code and Complete). Data in the type's shape (default: the sample). Docs:
 // https://usechartory.com/docs/charts/venn

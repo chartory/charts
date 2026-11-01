@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 099 Pass/fail grid (Figma chart/099): C.passGrid on the v4.2 release eval gate.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { passGrid } from "../../plots/pass-grid";

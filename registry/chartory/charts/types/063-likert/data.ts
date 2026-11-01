@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 063 Likert · sample data (Figma chart/063, Q3 customer survey: share of answers per statement, strongly disagree → strongly agree, %).
 import type { LikertData } from "../../plots/likert";
 

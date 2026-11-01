@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.pipeline (Figma ember-chart-5.js, type 83): one lane per stage, deals stacked from the lane foot (height by
 // value, colour by age: > 45 d danger, > 21 d warning, else cat-2), the stage name on top (staggered on two rows when
 // a name overflows its lane) and the stage total under the lane.

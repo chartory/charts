@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 097 Isotype · sample data (Figma chart/097, e-commerce: orders by channel this week, 1 box = 100 orders).
 import type { IsotypeData } from "../../plots/isotype";
 

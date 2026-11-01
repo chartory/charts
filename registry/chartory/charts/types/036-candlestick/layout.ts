@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 036 Candlestick (Figma chart/036): C.candles; no legend (direction reads from colour, the average is dashed).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { candles } from "../../plots/candles";

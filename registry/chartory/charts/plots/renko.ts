@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.renko (Figma ember-chart-4.js, type 56): fixed-size price bricks over a y grid, one per move (U up, D down):
 // up bricks solid status/success, down bricks status/danger at 25 % with a 1 px outline.
 import type { Kit } from "../core/kit";

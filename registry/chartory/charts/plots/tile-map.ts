@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.tileMap (Figma ember-chart-2.js, type 29): a square-tile map (one tile per region at its grid column / row, on the
 // sequential ramp, code centred on it) and the side list (C.sideList). The tile size leaves the list room for every
 // row on one line (C.listNeed).

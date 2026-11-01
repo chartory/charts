@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 061 Event barcode (Figma chart/061, "Request outcomes"): C.barcode, sampled requests per service over 24 h.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { barcode } from "../../plots/barcode";

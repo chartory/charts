@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 012 · sample data (Figma chart/012-multi-line, AI: p95 time to first token per region in ms, last 24 h; the seeded walk the Figma builder generated).
 import type { MultiLineData } from "../../plots/multi-line";
 

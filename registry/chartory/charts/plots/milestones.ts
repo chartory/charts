@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.milestones (Figma ember-chart-4.js): steps on a track, each a ring filled to its reach (from 12 o'clock) with its
 // number inside, links between steps as thick as the next step's reach, the day above, the name, the % and REACHED
 // below. Narrow: names that overflow their column get twice the room and alternate down 16 px.

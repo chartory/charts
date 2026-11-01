@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 080 Underwater drawdown · sample data (Figma chart/080-underwater-fund, fintech: a fund's weekly drawdown from its
 // running peak, Jan to Oct; the seeded series from the definition, expanded).
 import type { UnderwaterData } from "../../plots/underwater";

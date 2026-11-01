@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.radialHeat (Figma ember-chart-4.js, type 52): 7 day rings × 24 hour sectors on the sequential ramp (Monday
 // inside), hour labels at 00 / 06 / 12 / 18, a centred caption and the side list (C.sideList).
 import { arc, ctr, P, place, seq, type Kit, type Row } from "../core/kit";

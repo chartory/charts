@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 053 Order book depth · sample data (Figma chart/053, from the Figma definition, seeded values expanded).
 import type { DepthData } from "../../plots/depth";
 

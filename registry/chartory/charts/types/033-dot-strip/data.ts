@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 033 Dot strip · sample data (Figma chart/033, fintech: payout time in days per rail over the last 30 days; seeded
 // sample, expanded from the Figma definition: per rail the fastest and slowest payout, then 7 more, each with a size).
 import type { StripsData } from "../../plots/strips";

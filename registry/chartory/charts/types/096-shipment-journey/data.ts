@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 096 Shipment journey · sample data (Figma chart/096, logistics: shipment 4471 Shanghai → Leeds, days from Oct 1).
 import type { JourneyData } from "../../plots/journey";
 

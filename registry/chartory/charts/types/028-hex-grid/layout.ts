@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 028 Hex grid (Figma chart/028): C.hexbin; no legend (panels are named).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { hexbin } from "../../plots/hexbin";

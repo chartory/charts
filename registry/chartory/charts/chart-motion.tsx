@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 "use client";
 
 // The thin client layer of a chart (brief §3, §4). No layout code: every SVG comes rendered from the server.

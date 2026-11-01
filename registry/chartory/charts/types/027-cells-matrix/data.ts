@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 027 Cells matrix · sample data (Figma chart/027, AI: prompt clusters by request size (rows, tokens) × topic
 // (16 columns), last 7 days; strong = dense cells, track = unclustered outliers; the crosshair marks a busy cell).
 import type { MatrixData } from "../../plots/matrix";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 003 Stacked bars (Figma chart/003-stacked-bars): C.vStack on the weekly failed-payments sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { vStack } from "../../plots/v-stack";

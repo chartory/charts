@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 051 Weekly active workspaces · sample data (Figma chart/051, from the Figma definition, seeded values expanded).
 import type { SpiralData } from "../../plots/spiral";
 

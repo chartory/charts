@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.semiGauge (Figma ember-chart-2.js, type 21): a half-ring gauge from 9 o'clock to 3 o'clock: a track, the normal
 // zone up to the warning mark and the overload zone after it, a needle with its hub, the 0 % / warning / 100 % marks
 // outside the ring and the value block under the hub.

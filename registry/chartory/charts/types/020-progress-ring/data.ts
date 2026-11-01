@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 020 Progress ring · sample data (Figma chart/020, AI: token budget, 7.2M of 10M used on day 21 of 30).
 import type { PieData } from "../../plots/pie";
 

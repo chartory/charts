@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 061 Event barcode · sample data (Figma chart/061, request outcomes over the last 24 h on 3 services; events seeded).
 import type { BarcodeData } from "../../plots/barcode";
 

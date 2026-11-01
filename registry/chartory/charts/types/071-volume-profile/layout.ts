@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 071 Volume profile (Figma chart/071, "Volume at price"): C.volumeProfile, SOL / USD over two days.
 import type { ChartDef } from "../../core/shell";
 import { volumeProfile } from "../../plots/volume-profile";

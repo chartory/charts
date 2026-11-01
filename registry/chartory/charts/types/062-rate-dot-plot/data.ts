@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 062 Rate dot plot · sample data (Figma chart/062, policy rate projections per member, September round).
 import type { RateDotsData } from "../../plots/rate-dots";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.bump (Figma ember-chart-3.js): rank over time; a grid row per rank (#1 on top), smooth lines through the ranks,
 // ringed points, the focus row thicker and fully opaque (others 55 %), names at the line ends.
 import { X, type Kit } from "../core/kit";

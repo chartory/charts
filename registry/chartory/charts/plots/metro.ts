@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.metro (Figma ember-chart-4.js, type 57): a route as a two-row metro line with a turn, the travelled part in
 // data/primary over the planned track, stops as rings (the current one with a halo), names and times under the stops
 // (every stop when there is room, else every other one and the current stop).

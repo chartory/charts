@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.spiral (Figma ember-chart-4.js, type 51): a year of weekly values as dots on an Archimedean spiral (size and
 // sequential colour by value), the busiest week ringed, a centred caption and the side list (C.sideList).
 import { ctr, P, place, point, seq, type Kit, type Row } from "../core/kit";

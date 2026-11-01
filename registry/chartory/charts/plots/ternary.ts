@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.ternary (Figma ember-chart-5.js, type 95): a ternary plot. Equilateral triangle (top / left / right corners) with a
 // soft area, grid lines at every fifth on all three axes, a frame, one sized dot per item with its name, corner names.
 import { place, tri, type Kit } from "../core/kit";

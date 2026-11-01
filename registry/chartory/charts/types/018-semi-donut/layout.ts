@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 018 Semi donut (Figma chart/018): C.semiDonut; no card legend (the plot carries its own legend with the shares).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { semiDonut } from "../../plots/semi-donut";

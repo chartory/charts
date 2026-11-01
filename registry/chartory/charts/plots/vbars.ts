@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.vBars (Figma ember-chart.js): vertical bars without a y axis, value labels inside the bar top (flat) or along the
 // bar (rot, turned 90°), category labels under each bar, an optional dashed reference line with its label.
 import type { Kit } from "../core/kit";

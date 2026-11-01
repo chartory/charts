@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 005 · sample data (Figma chart/005-floating-range-bars, logistics: delivery window per route as [low, high, median] hour of day; SLA 10:30).
 import type { FloatingData } from "../../plots/floating";
 

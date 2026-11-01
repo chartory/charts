@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 032 Funnel · sample data (Figma chart/032, SaaS: September trial funnel, visit to annual plan).
 import type { FunnelData } from "../../plots/funnel";
 

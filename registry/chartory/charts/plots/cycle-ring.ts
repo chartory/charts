@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.cycleRing (Figma ember-chart-5.js, type 98): the cash conversion cycle as two rings from 12 o'clock. Outer ring:
 // inventory days then receivable days (a small gap between); inner ring: payable days. A ringed dot where cash comes
 // back, a centred value + caption, and the side list (C.sideList).

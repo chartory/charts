@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 045 Bump · sample data (Figma chart/045-bump-volume-rank, crypto: weekly trading-volume rank, Solana in focus).
 import type { BumpData } from "../../plots/bump";
 

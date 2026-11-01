@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.yard (Figma ember-chart-4.js, type 58): a row of numbered dock doors, a dashed apron line, then a grid of
 // trailer slots (10 per row), coloured by state; empty doors and slots are outlined only (slots dashed).
 import { cell, dash, type Kit } from "../core/kit";

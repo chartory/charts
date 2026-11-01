@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 091 Cluster map · sample data (Figma chart/091-clusters-tickets, SaaS: support tickets embedded and clustered, last 7 days).
 import type { ClustersData } from "../../plots/clusters";
 

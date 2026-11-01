@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.pie (Figma ember-chart.js): pie or ring (inner > 0) of arc slices from 12 o'clock, an optional full track, an
 // optional centred value + caps, and the side list (C.sideList, rows 36 px). The diameter leaves the list the width
 // it needs to keep every row on one line (C.listNeed), at least 112 px.

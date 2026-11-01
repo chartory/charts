@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 026 Cohort · sample data (Figma chart/026, SaaS: net revenue retention by monthly cohort, M0–M5; label = month ·
 // accounts). The name column is 72 px on plots wider than 480, else 64.
 import type { CohortData } from "../../plots/cohort";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 078 Battery cells (Figma chart/078): C.batteries on the van fleet; no legend (each cell is labelled).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { batteries } from "../../plots/batteries";

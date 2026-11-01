@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 074 Flame graph · sample data (Figma chart/074-flame-agent-trace, AI: one agent run of 8.4 s by span and depth).
 import type { FlameData } from "../../plots/flame";
 

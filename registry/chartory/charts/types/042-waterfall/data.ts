@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 042 Waterfall · sample data (Figma chart/042-waterfall-cash-bridge, fintech: Q3 cash bridge in $M).
 import type { WaterfallData } from "../../plots/waterfall";
 

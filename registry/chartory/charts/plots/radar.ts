@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.radar (Figma ember-chart.js): a web of four rings and a spoke per axis, axis names outside, and per series a
 // translucent area, its outline and a dot on each vertex. Series draw back to front in the given order.
 import type { Kit } from "../core/kit";

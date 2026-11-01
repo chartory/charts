@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // Client-side motion shared by <ChartMotion> and the interactive Hearth widget: the morph from one server-rendered
 // state to the next, and the entrance + hover hook. A plain module (no "use client"): only client components import it.
 import { useEffect, useRef, type RefObject } from "react";

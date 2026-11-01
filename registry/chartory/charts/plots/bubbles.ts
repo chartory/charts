@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.bubbles (Figma ember-chart.js): packed bubbles, largest first, each placed on a 2 px grid at the free spot closest
 // to the centre (x weighted 0.55); tinted by the sign of the change with a 1 px status ring inside; name and change
 // inside bubbles of radius 22 and more, the name alone from 17.

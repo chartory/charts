@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 012 Multi-line (Figma chart/012-multi-line): C.multiLine on p95 latency per region.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { multiLine } from "../../plots/multi-line";

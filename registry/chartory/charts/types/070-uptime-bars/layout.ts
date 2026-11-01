@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 070 Uptime bars (Figma chart/070, "Service uptime"): C.uptime, 63 days of 3 services.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { uptime } from "../../plots/uptime";

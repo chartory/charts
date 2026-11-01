@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 072 Quadrant (Figma chart/072, "Product portfolio"): C.quadrant, 12 product lines by growth and margin.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { quadrant } from "../../plots/quadrant";

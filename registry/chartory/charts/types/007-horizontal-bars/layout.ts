@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 007 Horizontal bars (Figma chart/007-horizontal-bars): C.hBars on the hub deliveries sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { hBars } from "../../plots/h-bars";

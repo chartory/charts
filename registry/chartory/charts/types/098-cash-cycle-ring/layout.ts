@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 098 Cash cycle ring (Figma chart/098): C.cycleRing; no legend (the side list names the rings). Radius-bound.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { cycleRing } from "../../plots/cycle-ring";

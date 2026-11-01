@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.waterfall (Figma ember-chart-3.js): running total from an opening to a closing balance; totals in data/primary
 // from zero, steps green up / red down, dashed connectors at the running level, signed values above the steps
 // (dropped when wider than the step's band).

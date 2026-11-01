@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 016 Vertical profile (Figma chart/016-vertical-profile): C.profile on recall by context length for two models.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { profile } from "../../plots/profile";

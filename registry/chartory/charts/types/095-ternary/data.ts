@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 095 Ternary · sample data (Figma chart/095, AI: production models placed by their quality / speed / low-cost mix).
 import type { TernaryData } from "../../plots/ternary";
 

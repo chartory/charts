@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 038 Block timeline (Figma chart/038): C.blocks on the Q4 release train sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { blocks } from "../../plots/blocks";

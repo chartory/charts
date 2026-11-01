@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.band (Figma ember-chart-2.js): a confidence band (p10–p90) behind a line that is solid up to today (actual) and
 // dashed after it (forecast), a "today" rule and a ringed point on it.
 import { X, tail, type Kit } from "../core/kit";

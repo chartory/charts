@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.bowtie (Figma ember-chart-5.js, type 87): stages as trapezoids narrowing to the knot and widening after it
 // (left = cat-2, knot = strong, right = data/primary; opacity by position), with caps names and values under them
 // (names staggered on two rows when one overflows its slot).

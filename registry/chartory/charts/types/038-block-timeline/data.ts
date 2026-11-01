@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 038 Block timeline · sample data (Figma chart/038, SaaS: Q4 release train per squad; [weight, state, item, status]).
 import type { BlocksData } from "../../plots/blocks";
 

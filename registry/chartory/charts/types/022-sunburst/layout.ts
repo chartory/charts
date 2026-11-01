@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 022 Sunburst (Figma chart/022, "Token spend by team"): C.sunburst, teams inside, models outside, team list beside.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { sunburst } from "../../plots/sunburst";

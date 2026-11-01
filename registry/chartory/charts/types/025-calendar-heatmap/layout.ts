@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 025 Calendar heatmap (Figma chart/025): C.calendar; no legend (the plot carries its LESS → MORE scale).
 import type { ChartDef } from "../../core/shell";
 import { calendar } from "../../plots/calendar";

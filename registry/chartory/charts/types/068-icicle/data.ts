@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 068 Icicle · sample data (Figma chart/068, inference spend this month by team and project, $K).
 import type { IcicleData } from "../../plots/icicle";
 

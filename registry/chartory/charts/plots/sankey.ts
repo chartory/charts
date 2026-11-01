@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.sankey (Figma ember-chart.js): two columns of nodes (sources coloured, outcomes neutral) joined by flow ribbons at
 // 32 %; labels (name over value, or one row each when the column cannot hold them stacked), then each column of
 // labels is spread so no two touch (top-down, then pushed back up from the plot bottom).

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 001 Bars (Figma chart/001-bars): C.vBars on the monthly spend sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { vBars } from "../../plots/vbars";

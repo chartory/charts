@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.punchCard (Figma ember-chart-5.js, type 86): days × 24 hours, a dot per hour sized by its share of the busiest
 // hour (data/primary above 75 %, else primary-soft), a grid line through each row, day labels left, hour labels.
 import { place, type Kit } from "../core/kit";

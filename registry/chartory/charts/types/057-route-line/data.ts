@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 057 Route progress · sample data (Figma chart/057, from the Figma definition, seeded values expanded).
 import type { MetroData } from "../../plots/metro";
 

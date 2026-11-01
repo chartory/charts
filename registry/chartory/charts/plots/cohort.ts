@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.cohort (Figma ember-chart.js): a cohort triangle: column labels on top, cohort names on the left, cells on the
 // sequential ramp between lo and hi, each with its value (strong from step 3 up, body below).
 import type { Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 011 Area · sample data (Figma chart/011-area, crypto: daily close, Sep 10 → Oct 9). The values are the seeded
 // series the Figma builder generated (exact floats, so every size lands on the same points).
 import type { LineData } from "../../plots/line";

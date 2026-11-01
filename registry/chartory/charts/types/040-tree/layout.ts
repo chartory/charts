@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 040 Tree (Figma chart/040): C.tree2; no legend (each card names its status).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { tree2 } from "../../plots/tree2";

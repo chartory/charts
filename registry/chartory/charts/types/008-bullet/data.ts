@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 008 Bullet · sample data (Figma chart/008-bullet, e-commerce: Q3 goals, actual against target with three ranges).
 // The label column is 112 px on L (plot wider than 480), 96 px below.
 import type { BulletData, BulletRow } from "../../plots/bullet";

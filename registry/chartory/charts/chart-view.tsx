@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // <ChartView>: one chart type drawn as SVG from its definition (registry plan step 1). Isomorphic: no server-only, no
 // browser API, so it renders in a React Server Component (Next) or in the browser (Vite); only the motion layer
 // (ChartMotion) is a client component. The site's <Chart no> (chart.tsx) and every package component

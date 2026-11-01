@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 015 Forecast band (Figma chart/015-forecast-band): C.band on the cash balance (actual, forecast, p10–p90).
 import type { ChartDef } from "../../core/shell";
 import { band } from "../../plots/band";

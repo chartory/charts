@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.stream2 (Figma ember-chart-2.js): streamgraph centred on a middle line, month guide lines, layers outlined in the
 // ground colour, a name + share label inside each layer where it is thick enough, a "now" line with an inverse chip.
 import { X, tail, tok, type Kit } from "../core/kit";

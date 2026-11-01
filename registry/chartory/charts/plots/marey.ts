@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.marey (Figma ember-chart-4.js): a Marey schedule: stops as horizontal lines top to bottom, each van a line
 // through (arrive, depart) at every stop on a time axis (late vans 2.5 px), the plan as a dashed line.
 import { dash, place, type Kit } from "../core/kit";

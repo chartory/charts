@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 049 Parallel coordinates (Figma chart/049): C.parallel on the model eval sample.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { parallel } from "../../plots/parallel";

@@ -8,7 +8,7 @@
   </a>
 </p>
 
-<h1 align="center">100 chart types for React. Free.</h1>
+<h1 align="center">100 chart types for React. Free and MIT.</h1>
 
 <p align="center">
   Real charts with real layouts: sankeys, gantts, calendar heatmaps, ridgelines, marimekkos and 95 more.<br>
@@ -25,6 +25,7 @@
 <p align="center">
   <a href="https://ui.shadcn.com/docs/directory"><img alt="shadcn registry: @chartory" src="https://img.shields.io/badge/shadcn-%40chartory-0a0a0a?style=flat-square"></a>
   <img alt="100 free chart types" src="https://img.shields.io/badge/free%20charts-100-fe6d2b?style=flat-square">
+  <a href="LICENSE.md"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0a0a0a?style=flat-square"></a>
   <img alt="Dependencies: React only" src="https://img.shields.io/badge/dependencies-react%20only-0a0a0a?style=flat-square">
   <img alt="TypeScript" src="https://img.shields.io/badge/types-TypeScript-0a0a0a?style=flat-square">
 </p>
@@ -57,7 +58,7 @@ drawn for the question it answers.
   fit, ticks round, and long names wrap or stack. Nothing overlaps, at any of the four sizes.
 - **Four sizes, one prop.** `size="xs" | "s" | "m" | "l"`, with the legend on or off. No resize observers, no
   hand-tuned margins.
-- **The code is yours.** It installs as source, not as a package. Read it, change it, keep it.
+- **The code is yours.** MIT, installed as source, not as a package. Read it, change it, keep it.
 - **React and nothing else.** The engine draws SVG: no D3, no Recharts, no canvas, no runtime dependencies besides
   React. Charts render on the server and play in on the client.
 - **Motion that means something.** Charts draw in when they come into view and morph to new data (`states`), or tick
@@ -221,8 +222,8 @@ always matches what the registry installs. Version 1.0.0.
 
 ## Licence
 
-Free to use in any project, personal or commercial, client work included. Don't republish the charts as a chart
-library or kit of your own. The full terms are in [LICENSE.md](LICENSE.md) and at
-[usechartory.com/licence](https://usechartory.com/licence).
+The free charts in this repository are [MIT](LICENSE.md): use, change and ship them in any project, personal or
+commercial. The paid parts of Chartory (newer types, Signal, widgets, sector packs, templates and the Figma files) are
+not in this repository; they come with a plan under the licence at [usechartory.com/licence](https://usechartory.com/licence).
 
 Chartory is made by one person and published by BEY AGENCY LTD, London. Follow along on [X](https://x.com/berkayerdinc_) and [Substack](https://substack.com/@berkayerdinc).

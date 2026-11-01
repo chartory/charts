@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 007 Horizontal bars · sample data (Figma chart/007-horizontal-bars, logistics: parcels delivered today of those
 // scheduled, per hub). Values grouped by thousands (1,312).
 import type { HBarsData } from "../../plots/h-bars";

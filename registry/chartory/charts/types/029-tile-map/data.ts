@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 029 Tile map · sample data (Figma chart/029, logistics: parcels delivered by country in October; tile = [code,
 // column, row, ramp step 0–6]).
 import type { TileMapData } from "../../plots/tile-map";

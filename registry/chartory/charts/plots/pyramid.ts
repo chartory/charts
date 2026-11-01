@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.pyramid (Figma ember-chart-5.js, type 82): back-to-back bars per row, the row label in a 60 px centre column,
 // left bars grow leftwards (a), right bars rightwards (b), each with its percentage outside the bar end.
 import { box, cell, place, type Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 062 Rate dot plot (Figma chart/062, "Rate projections"): C.rateDots, each member's year-end policy rate.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { rateDots } from "../../plots/rate-dots";

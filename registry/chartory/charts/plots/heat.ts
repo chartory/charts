@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.heat (Figma ember-chart.js): a heatmap of rounded cells on the sequential ramp (data/idle under 0.1), row names on
 // the left, chosen column labels below, and marked cells carrying their value.
 import type { Kit } from "../core/kit";

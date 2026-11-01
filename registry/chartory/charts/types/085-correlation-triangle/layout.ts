@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 085 Correlation triangle (Figma chart/085-correlation-crypto): C.corrTri on six coins, 30-day daily returns.
 import type { ChartDef } from "../../core/shell";
 import { corrTri } from "../../plots/corr-tri";

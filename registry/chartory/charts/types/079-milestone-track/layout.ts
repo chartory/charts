@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 079 Milestone track (Figma chart/079-milestones-onboarding): C.milestones on the onboarding steps; no legend.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { milestones } from "../../plots/milestones";

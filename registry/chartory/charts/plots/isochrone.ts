@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.isochrone (Figma ember-chart-5.js, type 88): drive-time rings round a depot (filled zones, deeper inwards, with
 // a grid edge each), stops as dots at their angle and minutes (late = danger), the depot dot, and the side list.
 import { paint, P, type Kit, type Row } from "../core/kit";

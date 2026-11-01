@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.sawtooth (Figma ember-chart-5.js, type 84): stock on hand as a step line with a light area under it, stockout
 // spans as danger bands, a dashed reorder line with its caps label, arrival dots, y grid and date labels.
 import { box, dash, place, X, type Kit } from "../core/kit";

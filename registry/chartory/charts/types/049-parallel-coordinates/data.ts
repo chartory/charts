@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 049 Parallel coordinates · sample data (Figma chart/049, AI: model eval scores 0–100 per measure, Atlas 3 in focus).
 import type { ParallelData } from "../../plots/parallel";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.line (Figma ember-chart.js): line or area over a y grid; optional smooth curve, flat or gradient area (data/area-top
 // → data/area-bottom), ringed points, an end point with a halo, a tooltip, and x labels at chosen points (first
 // starts, last ends, others centre).

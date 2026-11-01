@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 006 Histogram · sample data (Figma chart/006-histogram, AI: response latency in 25 ms bins over 24 h, requests per
 // bin; p50 and p95 marked). The bin counts are the series the Figma builder generated.
 import type { HistData } from "../../plots/hist";

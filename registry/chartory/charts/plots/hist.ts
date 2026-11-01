@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.hist (Figma ember-chart.js): histogram bins over a y grid (data/primary, the tail in data/seq-2), percentile
 // marker lines with caps labels beside them, x labels on bin edges (first starts, past-the-end ends).
 import type { Kit } from "../core/kit";

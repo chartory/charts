@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.barcode (Figma ember-chart-4.js): one lane per service; seeded random events (1 px ticks) drawn by the hour
 // weights, coloured by outcome (error / slow / ok at 45 %), the service name on the left and hour labels below.
 import { place, type Kit } from "../core/kit";

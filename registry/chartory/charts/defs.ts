@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // The chart definitions a page can draw, by type number (registry plan step 1). Widgets and helpers look a type up
 // here instead of importing every type: the site registers all 132 (registry.ts), a package component registers only
 // its own (components/chartory/<slug>.tsx), so a buyer's bundle carries the types it uses.

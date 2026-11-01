@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.blocks (Figma ember-chart.js): a column per squad, blocks stacked in proportion (the last block takes the rest),
 // a title in each block of 22 px and more (fixed to the column when wider, dropped when it would not fit), a caps
 // status at the block foot when the block is tall enough.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 010 Line · sample data (Figma chart/010-line, AI: p95 time to first token in us-east, hourly over the last 24 h).
 import type { LineData } from "../../plots/line";
 

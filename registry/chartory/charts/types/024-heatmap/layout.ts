@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 024 Heatmap (Figma chart/024, "Card transactions by hour"): C.heat, weekdays × 2-hour slots, the Friday peak marked.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { heat } from "../../plots/heat";

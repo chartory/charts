@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 037 Gantt · sample data (Figma chart/037, logistics: today's truck schedule on 6 docks, 06:00 to 14:00, now 10:30).
 import type { GanttData } from "../../plots/gantt";
 

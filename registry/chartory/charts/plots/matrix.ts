@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.matrix (Figma ember-chart.js): a cluster matrix: size rows (labels left, a rule under each row), cells in a
 // 16-column band grid coloured by cluster (weak cells at 0.55), and an optional crosshair with a tooltip.
 import type { Kit } from "../core/kit";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.lollipop (Figma ember-chart.js): lollipop bars: a track and a bar per row, a ringed marker above the bar end
 // with a dotted drop line down to the bar, the value to the left of the marker.
 import type { Kit } from "../core/kit";

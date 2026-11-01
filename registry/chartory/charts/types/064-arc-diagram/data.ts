@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 064 Arc diagram · sample data (Figma chart/064, transfers between wallet clusters; link value = transfer weight).
 import type { ArcDiagramData } from "../../plots/arc-diagram";
 

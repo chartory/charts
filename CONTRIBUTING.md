@@ -10,4 +10,6 @@ can't be merged here as they are. What helps most:
 - **Fixes.** If you found the fix, put the diff in the issue. It lands in the next release and you get the credit in
   the changelog.
 
+Contributions are accepted under the MIT licence of this repository.
+
 Security issues: write to hello@usechartory.com instead of opening an issue.

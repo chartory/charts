@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 059 Shelf availability · sample data (Figma chart/059, from the Figma definition, seeded values expanded).
 import type { ShelfData } from "../../plots/shelf";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 032 Funnel (Figma chart/032): C.funnel; no legend (every stage is labelled).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { funnel } from "../../plots/funnel";

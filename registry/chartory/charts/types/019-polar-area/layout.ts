@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 019 Polar area (Figma chart/019, "Signups by channel"): C.polar with the channel list beside it.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { polar } from "../../plots/polar";

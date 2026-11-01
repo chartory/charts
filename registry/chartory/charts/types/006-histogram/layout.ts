@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 006 Histogram (Figma chart/006-histogram): C.hist on the latency sample, p50 and p95 marked.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { hist } from "../../plots/hist";

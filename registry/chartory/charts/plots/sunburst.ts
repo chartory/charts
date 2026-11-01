@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.sunburst (Figma ember-chart.js): two rings from 12 o'clock: groups (teams) inside, their items (models) outside at
 // falling opacity; a centred value + caps (the value steps down to Body/L when the hole is too small) and the side
 // list (C.sideList) with each group's total and, when the list is 260 px or wider, its first two items.

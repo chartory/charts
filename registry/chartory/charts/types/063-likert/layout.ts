@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 063 Likert (Figma chart/063, "Customer survey"): C.likert on five survey statements.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { likert } from "../../plots/likert";

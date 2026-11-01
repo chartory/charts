@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 047 Marimekko · sample data (Figma chart/047, e-commerce: Q3 net sales by region (share) and category (parts)).
 import type { MarimekkoData } from "../../plots/marimekko";
 

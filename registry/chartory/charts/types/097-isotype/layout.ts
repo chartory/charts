@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 097 Isotype (Figma chart/097): C.isotype; the legend names the channels and the unit (1 box = 100).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { isotype } from "../../plots/isotype";

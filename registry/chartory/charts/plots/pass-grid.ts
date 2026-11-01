@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.passGrid (Figma ember-chart-5.js, type 99): models × eval suites. A tinted square per result with a check (pass),
 // a cross (fail) or a dash (flaky) in the status colour; model names left, suite names under the columns (staggered on
 // two rows, each using its neighbour's room, when one does not fit its column).

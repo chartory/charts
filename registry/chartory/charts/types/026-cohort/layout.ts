@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 026 Cohort (Figma chart/026, "Revenue retention by cohort"): C.cohort, six monthly cohorts over six months.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { cohort } from "../../plots/cohort";

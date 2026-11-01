@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 013 Overlapping areas (Figma chart/013-overlapping-areas): C.multiLine with translucent areas on volume per venue.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { multiLine } from "../../plots/multi-line";

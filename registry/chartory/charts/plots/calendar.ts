@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.calendar (Figma ember-chart-2.js, type 25): a week-column calendar heatmap: a cell per day (Mon → Sun down the
 // column) on the sequential ramp (0 = idle, -1 = not yet), MON / WED / FRI on the left, month names over their first
 // week, and a LESS → MORE scale at the bottom right.

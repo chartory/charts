@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.profile (Figma ember-chart-2.js): vertical profile; categories down the y axis (one grid row each), the value on
 // x, each series a smooth line through ringed points.
 import type { Kit } from "../core/kit";

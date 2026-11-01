@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 014 · sample data (Figma chart/014-streamgraph, logistics: monthly shipments by mode in K, 2026).
 import type { Stream2Data } from "../../plots/stream2";
 

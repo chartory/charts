@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.dumbbell (Figma ember-chart-4.js): per row, our value and the competitor's as ringed dots joined by a bar
 // (success when ours is lower, danger when higher), the gap in a right column, vertical grid at the x ticks.
 import { paint, place, type Kit } from "../core/kit";

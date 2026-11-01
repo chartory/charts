@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.polar (Figma ember-chart.js): polar area (rose): equal-angle sectors from 12 o'clock, radius by √value, four guide
 // rings, and the side list (C.sideList) with values and shares. The radius leaves the list 128 px or more.
 import { paint, type Kit } from "../core/kit";

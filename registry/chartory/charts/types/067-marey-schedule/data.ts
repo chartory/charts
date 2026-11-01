@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 067 Marey schedule · sample data (Figma chart/067, 4 vans on a 6-stop route, 08:00 to 12:00; times in minutes after 08:00, [arrive, depart]).
 import type { MareyData } from "../../plots/marey";
 

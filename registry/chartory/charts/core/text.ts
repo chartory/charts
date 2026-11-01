@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // Text measurement on the server, the way the Figma kit measures it: Geist advances + pair kerning + tracking
 // between characters; an auto-width text box is the whole-pixel ceiling (checked against the Figma dumps).
 import { EMBER_STYLES, GEIST } from "./geist-metrics";

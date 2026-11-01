@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 073 Term cloud · sample data (Figma chart/073-term-cloud-support, SaaS: support ticket topics by weight and tone).
 import type { CloudData } from "../../plots/cloud";
 

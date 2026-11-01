@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 021 Gauge (Figma chart/021): C.semiGauge; no legend (the zones are marked on the ring).
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { semiGauge } from "../../plots/semi-gauge";

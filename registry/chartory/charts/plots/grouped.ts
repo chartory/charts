@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.grouped (Figma ember-chart-2.js): grouped vertical bars over a y grid; one band per category, the series side by
 // side inside it (2 px apart, top corners 3).
 import type { Kit } from "../core/kit";

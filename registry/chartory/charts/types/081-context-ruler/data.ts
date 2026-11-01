@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 081 Context window use · sample data (Figma chart/081-context-ruler).
 import type { ContextRulerData } from "../../plots/context-ruler";
 

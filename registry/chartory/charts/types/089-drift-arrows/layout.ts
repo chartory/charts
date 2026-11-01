@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 089 Drift arrows (Figma chart/089-drift-rebalance): C.driftArrows, current weight to target per asset class.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { driftArrows } from "../../plots/drift-arrows";

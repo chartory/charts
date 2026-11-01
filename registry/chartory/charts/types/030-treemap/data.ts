@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 030 Treemap · sample data (Figma chart/030, e-commerce: Q3 net sales by category and subcategory, $K).
 import type { TreemapData } from "../../plots/treemap";
 

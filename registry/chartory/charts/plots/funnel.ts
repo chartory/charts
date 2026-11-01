@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.funnel (Figma ember-chart.js): stacked trapezoids, centred, top width W0 × widths[i] narrowing to the next stage;
 // name and value centred on each stage, the step conversion beside it (dropped when it would leave the plot).
 import type { Kit } from "../core/kit";

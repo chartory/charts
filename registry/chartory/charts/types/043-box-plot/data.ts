@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 043 Box plot · sample data (Figma chart/043, AI: response latency by model in ms, last 7 days).
 import type { BoxPlotData } from "../../plots/box-plot";
 

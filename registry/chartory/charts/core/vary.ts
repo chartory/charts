@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // Data states for the update and live motion (brief §4), built on the server: `vary` moves a type's sample values
 // (deterministic, seeded) so the same marks can morph from old data to new; `tickSeries` shifts a series by one point
 // (a new value arrives at the end, the oldest leaves). Layout never runs in the browser: every state is rendered as

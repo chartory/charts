@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 017 Donut · sample data (Figma chart/017, SaaS: MRR by plan in $K, September; $184K in all).
 import type { PieData } from "../../plots/pie";
 

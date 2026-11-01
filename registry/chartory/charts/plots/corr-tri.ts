@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.corrTri (Figma ember-chart-5.js, type 85): lower triangle of a correlation matrix, a chip cell per pair and a
 // dot sized by |r| (data/primary for r ≥ 0, cat-2 below), row labels left, column labels under the cells when the
 // cells are 30 px or more, and the side list (C.sideList) beside it.

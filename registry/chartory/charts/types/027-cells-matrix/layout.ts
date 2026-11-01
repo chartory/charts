@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 027 Cells matrix (Figma chart/027, "Prompt clusters by size"): C.matrix, four topic clusters over request sizes.
 import type { ChartDef, TooltipSpec } from "../../core/shell";
 import { matrix } from "../../plots/matrix";

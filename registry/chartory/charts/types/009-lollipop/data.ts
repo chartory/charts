@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 009 Lollipop · sample data (Figma chart/009-lollipop, fintech: new deposits in October by region, $K).
 import type { LollipopData } from "../../plots/lollipop";
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.shelf (Figma ember-chart-4.js, type 59): a planogram, one row of facings per shelf (width by facings), each
 // outlined with its stock level as a fill from the bottom (healthy data/primary 75 %, low status/warning, out a
 // status/danger wash), the name on facings 44 px and wider, and the shelf board under the row.

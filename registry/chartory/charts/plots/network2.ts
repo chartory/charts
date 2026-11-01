@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.network2 (Figma ember-chart-2.js, type 39): a hub (halo + ringed disc with its label) and up to six nodes on a
 // dashed orbit guide at fixed angles (three right, three left), each tied to the hub by a curved edge whose weight
 // follows its value; nodes are sized by value (tinted fill, 2 px ring, core dot) with name and value · share beside.

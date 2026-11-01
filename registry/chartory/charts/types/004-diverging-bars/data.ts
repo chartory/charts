@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 004 · sample data (Figma chart/004-diverging-bars, fintech: weekly inflow and outflow in $K, W29 → W40).
 import type { DivergeData } from "../../plots/diverge";
 

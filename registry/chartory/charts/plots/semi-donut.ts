@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // C.semiDonut (Figma ember-chart-2.js, type 18): a half ring of segments from 9 o'clock to 3 o'clock (small gaps
 // between them), the total centred on the hub, and a legend inside the plot with each share; on narrow plots (XS) the
 // legend wraps into centred lines instead of running past the edges.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // Scene → SVG, on the server. Colours are tokens only (var(--chartory-…) in style, so the theme and the chart colour
 // on any ancestor restyle every mark); no layer names, no data-* attributes, no comments in the output (brief §5).
 // Geometry is the scene's: rects and texts on whole pixels, path data at Figma's precision (≤ 2 decimals).

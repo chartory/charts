@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 084 Stock sawtooth (Figma chart/084-sawtooth-stock): C.sawtooth on 60 days of units on hand.
 import type { ChartDef } from "../../core/shell";
 import { sawtooth } from "../../plots/sawtooth";

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // The Signal collection's hook in the core (2026-11-01: Hearth is free in code, Signal comes with Code and Complete).
 // The core draws Hearth; with collection="signal" it asks this hook for the Signal parts: the text mapping, the card,
 // legend and post-pass, and each plot's own Signal renderer. They live in charts/signal (@chartory/signal), which

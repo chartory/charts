@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT · Copyright (c) 2026 BEY AGENCY LTD · Chartory, usechartory.com
 // 003 Stacked bars · sample data (Figma chart/003-stacked-bars, fintech: failed payments per week by reason, W27 → W40).
 import type { VStackData } from "../../plots/v-stack";
 
