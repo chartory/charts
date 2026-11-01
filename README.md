@@ -115,6 +115,23 @@ npx shadcn@latest add @chartory/bars @chartory/donut @chartory/gantt
 
 Run the same command with `--overwrite` to update a chart to its newest version.
 
+## With your agent
+
+The Chartory MCP server lets Claude, Cursor, VS Code and other agents search the charts by the question your data
+answers, read each type's props and data schema, and install the code:
+
+```json
+{
+  "mcpServers": {
+    "chartory": { "url": "https://usechartory.com/mcp" }
+  }
+}
+```
+
+It is in the [official MCP Registry](https://registry.modelcontextprotocol.io) as `com.usechartory/chartory`, and this
+repository is a Cursor plugin (`.cursor-plugin/`, `mcp.json`, `rules/`). Setup for each editor:
+[usechartory.com/docs/agents](https://usechartory.com/docs/agents).
+
 ## Your data
 
 Each chart ships with realistic sample data, so it looks right the moment it lands. Pass your own in the same shape:

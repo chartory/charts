@@ -1,0 +1,13 @@
+---
+description: Use Chartory charts in React with the Chartory MCP server
+alwaysApply: false
+---
+
+When the user asks for a chart, a graph or a dashboard card in a React project:
+
+- Call `search_charts` with the question the data answers ("monthly revenue against target", "where users drop off in signup"). Pass `freeOnly: true` when the user has no Chartory licence.
+- Call `get_chart_spec` with the slug you picked: it returns the component, its props and the JSON Schema of the `data` prop. Shape the user's data to that schema.
+- Install with `npx shadcn@latest add @chartory/<slug>`, or call `get_chart_code` for the files.
+- Import `chartory.css` once in the global stylesheet.
+- Pick a size that fits the card (`xs`, `s`, `m`, `l`); never scale a chart with CSS.
+- Types 1 to 100 in the Hearth collection are free and MIT. The rest, the Signal collection and widgets need a registry token in `.env` as `CHARTORY_TOKEN`.

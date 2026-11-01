@@ -1,0 +1,15 @@
+{
+  "name": "chartory",
+  "displayName": "Chartory",
+  "version": "1.0.0",
+  "description": "Find, install and configure Chartory charts from Cursor: 132 chart types for React, 100 of them free and MIT. Search by the question your data answers, get the props and the data's JSON Schema, add the code.",
+  "author": {
+    "name": "Chartory",
+    "email": "hello@usechartory.com"
+  },
+  "homepage": "https://usechartory.com/docs/agents",
+  "repository": "https://github.com/chartory/charts",
+  "license": "MIT",
+  "keywords": ["charts", "data-visualization", "react", "shadcn", "mcp", "dashboard"],
+  "logo": "assets/logo.svg"
+}
