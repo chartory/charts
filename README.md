@@ -226,4 +226,4 @@ The free charts in this repository are [MIT](LICENSE.md): use, change and ship t
 commercial. The paid parts of Chartory (newer types, Signal, widgets, sector packs, templates and the Figma files) are
 not in this repository; they come with a plan under the licence at [usechartory.com/licence](https://usechartory.com/licence).
 
-Chartory is made by one person and published by BEY AGENCY LTD, London. Follow along on [X](https://x.com/berkayerdinc_) and [Substack](https://substack.com/@berkayerdinc).
+Chartory is made by one person and published by BEY AGENCY LTD, London. Follow along on [X](https://x.com/berkayerdinc_).
