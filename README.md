@@ -49,6 +49,10 @@ export function Traffic() {
 
 That is the whole setup: the chart, its engine and its tokens land in your project as plain TypeScript.
 
+Or try it first: every free chart opens in v0 with its code, for example
+[![Open in v0](https://v0.app/chat-static/button.svg)](https://v0.app/chat/api/open?url=https%3A%2F%2Fusechartory.com%2Fr%2Fv0%2Fsankey.json).
+The same button is on each chart's page at [usechartory.com/free](https://usechartory.com/free).
+
 ## Why Chartory
 
 Most chart libraries give you a canvas and a config object. Chartory gives you the finished chart, and each chart is
