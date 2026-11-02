@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ui.shadcn.com/docs/directory"><img alt="shadcn registry: @chartory" src="https://img.shields.io/badge/shadcn-%40chartory-0a0a0a?style=flat-square"></a>
+  <a href="https://ui.shadcn.com/docs/directory?q=chartory"><img alt="Listed in the shadcn registry directory: @chartory" src="https://img.shields.io/badge/shadcn%20directory-%40chartory-0a0a0a?style=flat-square"></a>
   <img alt="100 free chart types" src="https://img.shields.io/badge/free%20charts-100-fe6d2b?style=flat-square">
   <a href="LICENSE.md"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0a0a0a?style=flat-square"></a>
   <img alt="Dependencies: React only" src="https://img.shields.io/badge/dependencies-react%20only-0a0a0a?style=flat-square">
@@ -86,8 +86,8 @@ Chartory installs with the [shadcn CLI](https://ui.shadcn.com/docs/cli) into any
    npx shadcn@latest add @chartory/waterfall
    ```
 
-   `@chartory` is in the [shadcn registry directory](https://ui.shadcn.com/docs/directory), so the CLI finds it. If
-   your CLI asks where `@chartory` lives, add it to `components.json`:
+   `@chartory` is listed in the official [shadcn registry directory](https://ui.shadcn.com/docs/directory?q=chartory),
+   so the CLI finds it with no setup. On an older CLI that asks where `@chartory` lives, add it to `components.json`:
 
    ```json
    {
@@ -135,6 +135,10 @@ answers, read each type's props and data schema, and install the code:
 It is in the [official MCP Registry](https://registry.modelcontextprotocol.io) as `com.usechartory/chartory`, and this
 repository is a Cursor plugin (`.cursor-plugin/`, `mcp.json`, `rules/`). Setup for each editor:
 [usechartory.com/docs/agents](https://usechartory.com/docs/agents).
+
+The [shadcn MCP server](https://ui.shadcn.com/docs/mcp) works too: run `npx shadcn@latest mcp init`, add
+`"@chartory": "https://usechartory.com/r/{name}.json"` under `registries` in `components.json` (the shadcn server
+searches only the registries listed there), and ask your agent to "add a sankey from @chartory".
 
 ## Your data
 
